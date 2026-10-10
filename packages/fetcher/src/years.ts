@@ -1,9 +1,12 @@
 import { uniqueSongs, type ItunesHit, type YearsFile } from '@rani/core';
 import { getJson, sleep, throttle } from './http';
+import { pickBestHit } from './itunes-match';
 import { readAllDays, readYears, writeYears } from './store';
 
 // iTunes Search API の目安は1分に20回
 const INTERVAL_MS = 3_500;
+// 検索結果の上位から、曲名がいちばん近いものを選ぶ
+const CANDIDATES = 5;
 const RATE_LIMIT_WAIT_MS = 60_000;
 const SAVE_EVERY = 20;
 
@@ -14,25 +17,26 @@ export function planYears(keys: Iterable<string>, years: YearsFile, retryMissing
   return [...keys].filter((k) => !(k in years) || (retryMissing && years[k]!.year === null));
 }
 
-async function searchItunes(title: string, artist: string): Promise<ItunesHit | null> {
+export async function searchItunes(title: string, artist: string): Promise<ItunesHit | null> {
   const params = new URLSearchParams({
     term: `${title} ${artist}`,
     country: 'JP',
     media: 'music',
     entity: 'song',
-    limit: '1',
+    limit: String(CANDIDATES),
   });
   const { status, body } = await getJson(`https://itunes.apple.com/search?${params}`);
   if (status === 403 || status === 429) throw new RateLimited(`HTTP ${status}`);
   if (!body || typeof body !== 'object') throw new Error(`HTTP ${status}`);
-  const hit = (body as { results?: Record<string, unknown>[] }).results?.[0];
-  if (!hit || typeof hit.releaseDate !== 'string') return null;
-  return {
-    trackId: Number(hit.trackId),
-    trackName: String(hit.trackName ?? ''),
-    artistName: String(hit.artistName ?? ''),
-    releaseDate: hit.releaseDate.slice(0, 10),
-  };
+  const hits = ((body as { results?: Record<string, unknown>[] }).results ?? [])
+    .filter((r) => typeof r.releaseDate === 'string')
+    .map((r) => ({
+      trackId: Number(r.trackId),
+      trackName: String(r.trackName ?? ''),
+      artistName: String(r.artistName ?? ''),
+      releaseDate: String(r.releaseDate).slice(0, 10),
+    }));
+  return pickBestHit(title, artist, hits);
 }
 
 /** 発表年が未検索の曲を iTunes で検索し、data/years.json に追記する */

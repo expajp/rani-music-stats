@@ -199,7 +199,12 @@ deploy ワークフローのビルドで、fetcher の `build-data` コマンド
 
 - `data/onair/` の全曲キーのうち、`years.json` にないキーを対象にする
 - `--retry-missing` を付けたときだけ、`year` が `null` の曲も検索し直す
-- 検索は `https://itunes.apple.com/search` に `term=<曲名> <アーティスト>`, `country=JP`, `media=music`, `entity=song`, `limit=1` で問い合わせ、1件目の `releaseDate` の年を取る
+- 検索は `https://itunes.apple.com/search` に `term=<曲名> <アーティスト>`, `country=JP`, `media=music`, `entity=song`, `limit=5` で問い合わせる
+- 5件の中から、次の順に優先して1件を選び、その `releaseDate` の年を取る（`packages/fetcher/src/itunes-match.ts`）
+  1. 曲名の近さ。括弧を除けば一致 ＞ 副題・バージョン表記・feat. を除けば一致 ＞ 前方一致
+  2. アーティストの一致（包含関係で判定する。洋楽はカタカナ表記で返ることがあり、その場合は一致しない）
+  3. 発売日の古さ（再発盤やベスト盤より、オリジナルの年を取るため）
+- 曲名が一致する候補がなければ、発表年を `null`（不明）にする。別の曲の年を取らないため
 - リクエストの間隔は3.5秒以上空ける（iTunes Search API の目安は1分に20回）
 - 1回の実行で検索する曲数の上限を `--max N` で指定できる
 

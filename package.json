@@ -1,0 +1,28 @@
+{
+  "name": "rani-music-stats",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/core",
+    "packages/fetcher",
+    "packages/site"
+  ],
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc -p packages/core && tsc -p packages/fetcher && tsc -p packages/site",
+    "fetch": "npm run -w @rani/fetcher cli -- fetch",
+    "years": "npm run -w @rani/fetcher cli -- years",
+    "build:data": "npm run -w @rani/fetcher cli -- build-data",
+    "dev": "npm run build:data && npm run -w @rani/site dev",
+    "build": "npm run build:data && npm run -w @rani/site build"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3"
+  }
+}

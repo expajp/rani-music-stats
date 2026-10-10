@@ -1,0 +1,11 @@
+{
+  "name": "@rani/fetcher",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "cli": "tsx src/cli.ts"
+  },
+  "dependencies": {
+    "@rani/core": "*"
+  }
+}

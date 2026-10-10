@@ -1,7 +1,7 @@
 import type { PlayTuple, SongsData } from '@rani/core';
 import { useEffect, useMemo, useState, type ReactNode } from 'react';
 import { FilterPanel } from './FilterPanel';
-import { applyFilters, defaultFilters, filtersFromQuery, filtersToQuery, TOP_N_OPTIONS, topRows, type Filters } from './filters';
+import { applyFilters, candidates, defaultFilters, filtersFromQuery, filtersToQuery, TOP_N_OPTIONS, topRows, type Filters } from './filters';
 import { SongTable } from './SongTable';
 import { TopChart } from './TopChart';
 
@@ -65,12 +65,29 @@ function Stats({ data, latest }: { data: Data; latest: string }) {
 
   const rows = useMemo(() => applyFilters(data.songs.songs, data.plays, filters), [data, filters]);
   const top = useMemo(() => topRows(rows, filters.topN), [rows, filters.topN]);
+  // 候補は、その項目以外の条件で絞り込んだ曲から作る
+  const titleOptions = useMemo(
+    () => candidates(applyFilters(data.songs.songs, data.plays, { ...filters, title: '', titleExact: false }), (r) => r.song.title),
+    [data, filters],
+  );
+  const artistOptions = useMemo(
+    () => candidates(applyFilters(data.songs.songs, data.plays, { ...filters, artist: '', artistExact: false }), (r) => r.song.artist),
+    [data, filters],
+  );
   const update = (patch: Partial<Filters>) => setFilters((f) => ({ ...f, ...patch }));
 
   const earliest = data.songs.earliestDate ?? latest;
   return (
     <Shell note={`記録の期間：${earliest} 〜 ${latest}`}>
-      <FilterPanel filters={filters} earliest={earliest} latest={latest} onChange={update} onReset={() => setFilters(defaults)} />
+      <FilterPanel
+        filters={filters}
+        earliest={earliest}
+        latest={latest}
+        titleOptions={titleOptions}
+        artistOptions={artistOptions}
+        onChange={update}
+        onReset={() => setFilters(defaults)}
+      />
       <section className="card">
         <div className="card-head">
           <h2>オンエア回数の多い曲</h2>

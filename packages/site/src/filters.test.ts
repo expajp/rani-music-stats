@@ -1,6 +1,6 @@
 import type { PlayTuple, Song } from '@rani/core';
 import { describe, expect, it } from 'vitest';
-import { applyFilters, defaultFilters, filtersFromQuery, filtersToQuery, topRows, type Filters } from './filters';
+import { applyFilters, candidates, defaultFilters, filtersFromQuery, filtersToQuery, topRows, type Filters } from './filters';
 
 const song = (title: string, artist: string, year: number | null, firstDate: string): Song => ({
   key: `${title}\t${artist}`,
@@ -48,6 +48,12 @@ describe('applyFilters', () => {
     expect(titles({ artist: 'huntr' })).toEqual(['Golden']);
   });
 
+  it('候補から選んだ値は完全一致で絞る', () => {
+    expect(titles({ title: 'Hero', titleExact: false, artist: '' })).toEqual(['Hero']);
+    expect(titles({ title: 'her', titleExact: true })).toEqual([]);
+    expect(titles({ artist: 'huntr/x', artistExact: true })).toEqual(['Golden']);
+  });
+
   it('発表年で絞ると、発表年が不明の曲を除く', () => {
     expect(titles({ yearMin: '2000' })).toEqual(['Golden', 'Hero']);
     expect(titles({ yearMax: '2010' })).toEqual(['Hero']);
@@ -60,6 +66,21 @@ describe('applyFilters', () => {
   it('発表年で並べ替えると、不明の曲は末尾に置く', () => {
     expect(titles({ sort: 'year', desc: true })).toEqual(['Golden', 'Hero', 'Ｍｙｓｔｅｒｙ']);
     expect(titles({ sort: 'year', desc: false })).toEqual(['Hero', 'Golden', 'Ｍｙｓｔｅｒｙ']);
+  });
+});
+
+describe('candidates', () => {
+  it('期間内の回数が多い順に、表記ゆれをまとめて返す', () => {
+    const rows = applyFilters(
+      [...songs, song('golden', 'Other', null, '2026-10-01')],
+      [...plays, [3, '2026-10-02', '08:00:00']],
+      base,
+    );
+    expect(candidates(rows, (r) => r.song.title)).toEqual([
+      { label: 'Golden', count: 4 },
+      { label: 'Hero', count: 1 },
+      { label: 'Ｍｙｓｔｅｒｙ', count: 1 },
+    ]);
   });
 });
 
@@ -78,7 +99,7 @@ describe('URL のクエリ', () => {
   });
 
   it('クエリに書いた条件を復元できる', () => {
-    const f: Filters = { ...defaults, from: '2026-01-01', artist: 'スピッツ', yearMin: '1990', newOnly: true, topN: 10, sort: 'year', desc: false };
+    const f: Filters = { ...defaults, from: '2026-01-01', artist: 'スピッツ', artistExact: true, yearMin: '1990', newOnly: true, topN: 10, sort: 'year', desc: false };
     expect(filtersFromQuery(filtersToQuery(f, defaults), defaults)).toEqual(f);
   });
 

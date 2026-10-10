@@ -6,7 +6,10 @@ export interface Filters {
   from: string;
   to: string;
   title: string;
+  /** 候補から選んだときは完全一致、入力したときは部分一致で絞り込む */
+  titleExact: boolean;
   artist: string;
+  artistExact: boolean;
   yearMin: string;
   yearMax: string;
   newOnly: boolean;
@@ -27,7 +30,9 @@ export function defaultFilters(latest: string): Filters {
     from: addDays(latest, -29),
     to: latest,
     title: '',
+    titleExact: false,
     artist: '',
+    artistExact: false,
     yearMin: '',
     yearMax: '',
     newOnly: false,
@@ -47,7 +52,9 @@ export function filtersFromQuery(search: string, defaults: Filters): Filters {
     from: date(q.get('from'), defaults.from),
     to: date(q.get('to'), defaults.to),
     title: q.get('title') ?? '',
+    titleExact: q.has('title') && q.get('te') === '1',
     artist: q.get('artist') ?? '',
+    artistExact: q.has('artist') && q.get('ae') === '1',
     yearMin: q.get('ymin') ?? '',
     yearMax: q.get('ymax') ?? '',
     newOnly: q.get('new') === '1',
@@ -63,7 +70,9 @@ export function filtersToQuery(f: Filters, defaults: Filters): string {
   if (f.from !== defaults.from) q.set('from', f.from);
   if (f.to !== defaults.to) q.set('to', f.to);
   if (f.title) q.set('title', f.title);
+  if (f.title && f.titleExact) q.set('te', '1');
   if (f.artist) q.set('artist', f.artist);
+  if (f.artist && f.artistExact) q.set('ae', '1');
   if (f.yearMin) q.set('ymin', f.yearMin);
   if (f.yearMax) q.set('ymax', f.yearMax);
   if (f.newOnly) q.set('new', '1');
@@ -72,6 +81,11 @@ export function filtersToQuery(f: Filters, defaults: Filters): string {
   if (f.desc !== defaults.desc) q.set('dir', f.desc ? 'desc' : 'asc');
   const s = q.toString();
   return s ? `?${s}` : '';
+}
+
+function matches(value: string, query: string, exact: boolean): boolean {
+  const v = normalizeText(value);
+  return exact ? v === query : v.includes(query);
 }
 
 export interface Row {
@@ -96,8 +110,8 @@ export function applyFilters(songs: Song[], plays: PlayTuple[], f: Filters): Row
   songs.forEach((song, index) => {
     const count = counts[index]!;
     if (count === 0) return;
-    if (title && !normalizeText(song.title).includes(title)) return;
-    if (artist && !normalizeText(song.artist).includes(artist)) return;
+    if (title && !matches(song.title, title, f.titleExact)) return;
+    if (artist && !matches(song.artist, artist, f.artistExact)) return;
     if (yearMin !== null || yearMax !== null) {
       // 発表年で絞ったときは、発表年が不明の曲を除く
       if (song.year === null) return;
@@ -136,4 +150,22 @@ export function topRows(rows: Row[], n: number): Row[] {
   return [...rows]
     .sort((a, b) => b.count - a.count || a.song.title.localeCompare(b.song.title))
     .slice(0, n);
+}
+
+export interface Candidate {
+  label: string;
+  count: number;
+}
+
+/** 行から候補（曲名またはアーティスト）を作る。期間内の回数が多い順に並べる */
+export function candidates(rows: Row[], pick: (r: Row) => string): Candidate[] {
+  const byKey = new Map<string, Candidate>();
+  for (const r of rows) {
+    const label = pick(r);
+    const key = normalizeText(label);
+    const c = byKey.get(key);
+    if (c) c.count += r.count;
+    else byKey.set(key, { label, count: r.count });
+  }
+  return [...byKey.values()].sort((a, b) => b.count - a.count || a.label.localeCompare(b.label, 'ja'));
 }

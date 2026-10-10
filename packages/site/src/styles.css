@@ -7,6 +7,8 @@
   --accent: #c2410c;
   --accent-soft: #fdeee6;
   --row-hover: #f3f2ee;
+  /* radiko のテーマカラー */
+  --bar: #00a7e9;
   color-scheme: light;
 }
 
@@ -20,6 +22,7 @@
     --accent: #fb923c;
     --accent-soft: #3a2418;
     --row-hover: #2a2926;
+    --bar: #00a7e9;
     color-scheme: dark;
   }
 }
@@ -131,6 +134,81 @@ select {
 .filter-grid input {
   width: 100%;
   font-weight: 400;
+}
+
+.field {
+  display: grid;
+  gap: 4px;
+}
+
+.field > label {
+  font-weight: 600;
+}
+
+.combobox {
+  position: relative;
+}
+
+.combobox input {
+  padding-right: 52px;
+}
+
+.combobox-clear,
+.combobox-toggle {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 0 4px;
+  line-height: 1;
+}
+
+.combobox-clear {
+  right: 26px;
+  font-size: 1rem;
+}
+
+.combobox-toggle {
+  right: 6px;
+}
+
+.combobox-list {
+  position: absolute;
+  z-index: 10;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  max-height: 280px;
+  overflow-y: auto;
+  margin: 0;
+  padding: 4px 0;
+  list-style: none;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  box-shadow: 0 6px 20px rgb(0 0 0 / 0.12);
+}
+
+.combobox-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+
+.combobox-list li.active,
+.combobox-list li[role='option']:hover {
+  background: var(--row-hover);
+}
+
+.combobox-list li.combobox-empty {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  cursor: default;
 }
 
 .range {

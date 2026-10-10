@@ -1,9 +1,12 @@
-import { addDays, type Filters } from './filters';
+import { Combobox } from './Combobox';
+import { addDays, type Candidate, type Filters } from './filters';
 
 interface Props {
   filters: Filters;
   earliest: string;
   latest: string;
+  titleOptions: Candidate[];
+  artistOptions: Candidate[];
   onChange: (patch: Partial<Filters>) => void;
   onReset: () => void;
 }
@@ -14,7 +17,7 @@ const PRESETS = [
   { label: '直近90日', days: 90 },
 ] as const;
 
-export function FilterPanel({ filters, earliest, latest, onChange, onReset }: Props) {
+export function FilterPanel({ filters, earliest, latest, titleOptions, artistOptions, onChange, onReset }: Props) {
   const isPreset = (from: string) => filters.to === latest && filters.from === from;
 
   return (
@@ -65,14 +68,20 @@ export function FilterPanel({ filters, earliest, latest, onChange, onReset }: Pr
       </div>
 
       <div className="filter-grid">
-        <label>
-          曲名
-          <input type="search" value={filters.title} placeholder="部分一致" onChange={(e) => onChange({ title: e.target.value })} />
-        </label>
-        <label>
-          アーティスト
-          <input type="search" value={filters.artist} placeholder="部分一致" onChange={(e) => onChange({ artist: e.target.value })} />
-        </label>
+        <Combobox
+          label="曲名"
+          value={filters.title}
+          exact={filters.titleExact}
+          options={titleOptions}
+          onChange={(title, titleExact) => onChange({ title, titleExact })}
+        />
+        <Combobox
+          label="アーティスト"
+          value={filters.artist}
+          exact={filters.artistExact}
+          options={artistOptions}
+          onChange={(artist, artistExact) => onChange({ artist, artistExact })}
+        />
         <label>
           発表年
           <span className="range">

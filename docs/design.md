@@ -183,7 +183,7 @@ deploy ワークフローのビルドで、fetcher の `build-data` コマンド
 
 ### fetcher CLI
 
-`packages/fetcher` に、次の3つのコマンドを持つ。ルートの `package.json` から `npm run fetch`・`npm run years`・`npm run build:data` で呼べる。
+`packages/fetcher` に、次のコマンドを持つ。ルートの `package.json` から `npm run fetch`・`npm run years`・`npm run build:data`・`npm run overrides:draft`・`npm run overrides:apply` で呼べる。
 
 **`fetch`：公式JSONを取得して保存する**
 
@@ -212,6 +212,13 @@ deploy ワークフローのビルドで、fetcher の `build-data` コマンド
 
 - `data/onair/`、`data/years.json`、`data/year-overrides.json` を読み、`packages/site/public/data/` に `songs.json` と `plays.json` を書く
 - `npm run dev` と `npm run build` の前に自動で実行する
+
+**`overrides-draft` と `overrides-apply`：発表年を手で補完する**
+
+- `overrides-draft`：発表年が不明（`years.json` の `year` が `null`）で、まだ `year-overrides.json` にない曲を、オンエア回数の多い順に `data/year-overrides.draft.json` へ書き出す。値はすべて `null` にする
+  - 下書きに記入済みの値が残っているときは、上書きせずに終了する
+- `overrides-apply`：下書きのうち年が書かれた曲を `year-overrides.json` に取り込み、下書きから消す。年として読めない値（1900年〜翌年の整数以外）は取り込まず、書かれた値のまま下書きに残す。下書きが空になったらファイルを消す
+- 下書きのファイルは `.gitignore` に入れ、commit しない
 
 ### fetch ワークフロー（`.github/workflows/fetch.yml`）
 

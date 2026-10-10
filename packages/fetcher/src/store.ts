@@ -1,5 +1,5 @@
 import { existsSync } from 'node:fs';
-import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises';
+import { mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import type { DayFile, YearOverrides, YearsFile } from '@rani/core';
@@ -9,6 +9,7 @@ export const DATA_DIR = join(REPO_ROOT, 'data');
 export const ONAIR_DIR = join(DATA_DIR, 'onair');
 export const YEARS_FILE = join(DATA_DIR, 'years.json');
 export const OVERRIDES_FILE = join(DATA_DIR, 'year-overrides.json');
+export const OVERRIDES_DRAFT_FILE = join(DATA_DIR, 'year-overrides.draft.json');
 export const SITE_DATA_DIR = join(REPO_ROOT, 'packages/site/public/data');
 
 export function dayFilePath(date: string): string {
@@ -59,6 +60,22 @@ export function writeYears(years: YearsFile): Promise<void> {
 
 export function readOverrides(): Promise<YearOverrides> {
   return readJson<YearOverrides>(OVERRIDES_FILE, {});
+}
+
+/** 差分が読みやすいよう、曲キーの順に並べて書く */
+export function writeOverrides(overrides: YearOverrides): Promise<void> {
+  const sorted = Object.fromEntries(Object.entries(overrides).sort(([a], [b]) => a.localeCompare(b)));
+  return writeJson(OVERRIDES_FILE, sorted);
+}
+
+export function readOverridesDraft(): Promise<Record<string, unknown> | null> {
+  return readJson<Record<string, unknown> | null>(OVERRIDES_DRAFT_FILE, null);
+}
+
+/** 下書きは記入しやすい順（オンエア回数の多い順）のまま書く。空になったらファイルを消す */
+export async function writeOverridesDraft(draft: Record<string, unknown>): Promise<void> {
+  if (Object.keys(draft).length === 0) await rm(OVERRIDES_DRAFT_FILE, { force: true });
+  else await writeJson(OVERRIDES_DRAFT_FILE, draft);
 }
 
 export function writeSiteData(name: string, value: unknown): Promise<void> {

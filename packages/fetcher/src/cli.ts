@@ -2,13 +2,16 @@ import { parseArgs } from 'node:util';
 import { runBuildData } from './build-data';
 import { addDays, dateRange, isValidDate, todayJst } from './dates';
 import { runFetch } from './fetch';
+import { runOverridesApply, runOverridesDraft } from './overrides';
 import { runYears } from './years';
 
 const USAGE = `使い方：
   cli fetch --days N                         直近 N 日（今日を含む）を取得する
   cli fetch --from YYYY-MM-DD --to YYYY-MM-DD 期間を指定して取得する
   cli years [--max N] [--retry-missing]       発表年が未検索の曲を iTunes で検索する
-  cli build-data                              サイト用の集計データを生成する`;
+  cli build-data                              サイト用の集計データを生成する
+  cli overrides-draft                         発表年が不明な曲の下書きを data/year-overrides.draft.json に書き出す
+  cli overrides-apply                         下書きに書いた年を data/year-overrides.json に取り込む`;
 
 function fail(message: string): never {
   console.error(`${message}\n\n${USAGE}`);
@@ -57,6 +60,12 @@ switch (command) {
   }
   case 'build-data':
     await runBuildData();
+    break;
+  case 'overrides-draft':
+    await runOverridesDraft();
+    break;
+  case 'overrides-apply':
+    await runOverridesApply();
     break;
   default:
     fail(command ? `不明なコマンドです：${command}` : 'コマンドを指定してください');

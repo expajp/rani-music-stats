@@ -24,6 +24,8 @@ npm run typecheck        # 全パッケージの型チェック
 npm run fetch -- --days 7                              # 直近7日の公式JSONを取得
 npm run fetch -- --from 2025-10-10 --to 2026-10-09     # 期間を指定して取得
 npm run years -- --max 200                             # 発表年が未検索の曲を iTunes で検索
+npm run overrides:draft  # 発表年が不明な曲の下書きを data/year-overrides.draft.json に書き出す
+npm run overrides:apply  # 下書きに書いた年を data/year-overrides.json に取り込む
 npm run dev              # 集計データを作ってから開発サーバーを起動
 npm run build            # 集計データを作ってからサイトをビルド
 ```
@@ -32,5 +34,5 @@ npm run build            # 集計データを作ってからサイトをビル�
 
 - 公式JSONはファイルに保存しない。`time`・`title`・`artist` だけを取り出して `data/onair/` に保存する
 - 外部へのリクエストは間隔を空ける（公式サイト：2秒、iTunes：3.5秒）。間隔を縮めない
-- `data/years.json` は手で編集しない。発表年を直すときは `data/year-overrides.json` に書く
+- `data/years.json` は手で編集しない。発表年を直すときは `data/year-overrides.json` に書く（不明な曲は `overrides:draft` → 記入 → `overrides:apply` の順で補完できる）
 - 曲の同一判定は `songKey`（`packages/core/src/normalize.ts`）に集約する。ほかの場所で独自に正規化しない

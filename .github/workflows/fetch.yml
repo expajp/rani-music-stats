@@ -1,0 +1,62 @@
+name: fetch
+
+on:
+  schedule:
+    # 平日 20:00 JST
+    - cron: '0 11 * * 1-5'
+  workflow_dispatch:
+
+concurrency:
+  group: data
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+
+      # 今日のぶんの取得に失敗しても、過去の日のぶんは commit してから失敗させる
+      - id: fetch
+        run: npm run fetch -- --days 7
+        continue-on-error: true
+
+      - run: npm run years -- --max 200
+        continue-on-error: true
+
+      - id: commit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data
+          if git diff --cached --quiet; then
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          latest=$(find data/onair -name '*.json' | sort | tail -1 | xargs basename -s .json)
+          git commit -m "data: ${latest} までのオンエアデータを追加"
+          git pull --rebase origin main
+          git push origin HEAD:main
+          echo 'changed=true' >> "$GITHUB_OUTPUT"
+
+      - name: 今日のオンエアデータを取得できなかった
+        if: steps.fetch.outcome == 'failure'
+        run: exit 1
+
+  deploy:
+    needs: fetch
+    if: ${{ !cancelled() && needs.fetch.outputs.changed == 'true' }}
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy.yml

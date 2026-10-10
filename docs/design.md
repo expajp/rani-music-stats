@@ -50,7 +50,7 @@ iTunes Search API ─┘        │
 │   └── year-overrides.json          # オーナーが手で直した発表年（曲キー → 年）
 ├── packages/
 │   ├── core/                        # 共有ロジック：型、曲キーの正規化、曲の判定、集計
-│   ├── fetcher/                     # CLI：公式JSONの取得、iTunes 検索
+│   ├── fetcher/                     # CLI：公式JSONの取得、iTunes 検索、集計データの生成
 │   └── site/                        # Vite ＋ React のサイト
 ├── .github/workflows/
 │   ├── fetch.yml                    # 定期取得 → commit → deploy を呼ぶ
@@ -82,7 +82,7 @@ iTunes Search API ─┘        │
 - `plays` には、後述の判定で曲と判断した要素だけを、時刻順に入れる
 - 各要素は `time`、`title`、`artist` の3項目だけを持つ。値は公式JSONのまま（正規化しない）。表示に使うためである
 - 曲がない日（土日など）は `plays` を空の配列にして保存する。取得済みであることを記録し、翌日以降に取り直さないようにするためである
-- 1日あたり約10KB、1年で約2.5MBになる
+- 差分が読みやすいよう、インデント付きで書く。1日あたり約15KB、1年で約4MBになる
 
 曲の判定ルールを後から直す必要が出たときは、公式JSONを取り直して作り直す。公式JSONは1年以上前の日付も取得できるので、取り直しは可能である。
 
@@ -172,7 +172,7 @@ iTunes Search API ─┘        │
 
 ### ビルド時に作る集計データ
 
-deploy ワークフローのビルドで、`packages/core` が `data/onair/` と発表年のデータを読み、サイトが読み込む2つのJSONを `packages/site/public/data/` に生成する。
+deploy ワークフローのビルドで、fetcher の `build-data` コマンドが `data/onair/` と発表年のデータを読み、`packages/core` の集計処理でサイトが読み込む2つのJSONを `packages/site/public/data/` に生成する。
 
 - `songs.json`：曲の配列。各要素は曲キー、表示用の曲名とアーティスト、発表年（不明は `null`）、初回オンエア日、総オンエア回数
 - `plays.json`：オンエアの配列。各要素は `[曲の添字, "YYYY-MM-DD", "HH:MM:SS"]`
@@ -183,7 +183,7 @@ deploy ワークフローのビルドで、`packages/core` が `data/onair/` と
 
 ### fetcher CLI
 
-`packages/fetcher` に、次の2つのコマンドを持つ。
+`packages/fetcher` に、次の3つのコマンドを持つ。ルートの `package.json` から `npm run fetch`・`npm run years`・`npm run build:data` で呼べる。
 
 **`fetch`：公式JSONを取得して保存する**
 
@@ -202,6 +202,11 @@ deploy ワークフローのビルドで、`packages/core` が `data/onair/` と
 - 検索は `https://itunes.apple.com/search` に `term=<曲名> <アーティスト>`, `country=JP`, `media=music`, `entity=song`, `limit=1` で問い合わせ、1件目の `releaseDate` の年を取る
 - リクエストの間隔は3.5秒以上空ける（iTunes Search API の目安は1分に20回）
 - 1回の実行で検索する曲数の上限を `--max N` で指定できる
+
+**`build-data`：サイト用の集計データを生成する**
+
+- `data/onair/`、`data/years.json`、`data/year-overrides.json` を読み、`packages/site/public/data/` に `songs.json` と `plays.json` を書く
+- `npm run dev` と `npm run build` の前に自動で実行する
 
 ### fetch ワークフロー（`.github/workflows/fetch.yml`）
 
@@ -281,7 +286,7 @@ years                                        # 約6,000リクエスト、3.5秒�
   - 集計（回数、初回オンエア日）
   - フィクスチャは、公式JSONの形をまねて手で作った数件の要素にする。実際の公式JSONはリポジトリに入れない
 - `fetcher`：日付の計算と、取得するべき日の判定を単体テストする。HTTP はモックする
-- `site`：手動で確認する。自動テストは当面書かない
+- `site`：絞り込み・並べ替え・URL のクエリの処理（`filters.ts`）は単体テストを書く。画面は手動で確認する
 
 ## 実装の順序
 

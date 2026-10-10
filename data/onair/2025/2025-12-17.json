@@ -1,0 +1,771 @@
+{
+  "date": "2025-12-17",
+  "fetchedAt": "2026-10-10T11:28:22.252Z",
+  "plays": [
+    {
+      "time": "08:30:15",
+      "title": "ハッピークリスマス",
+      "artist": "AI"
+    },
+    {
+      "time": "08:35:28",
+      "title": "Live to Tell",
+      "artist": "Madonna"
+    },
+    {
+      "time": "08:38:46",
+      "title": "ゆめうつつ",
+      "artist": "米津玄師"
+    },
+    {
+      "time": "08:43:45",
+      "title": "A Little More",
+      "artist": "Ed Sheeran"
+    },
+    {
+      "time": "08:46:53",
+      "title": "あの日のメリークリスマス",
+      "artist": "嵐"
+    },
+    {
+      "time": "08:51:04",
+      "title": "Humbug",
+      "artist": "Owl City"
+    },
+    {
+      "time": "08:55:20",
+      "title": "Who's Crying Now",
+      "artist": "Journey"
+    },
+    {
+      "time": "09:00:14",
+      "title": "Best Of My Love",
+      "artist": "ASWAD"
+    },
+    {
+      "time": "09:04:00",
+      "title": "HIGH FIVE",
+      "artist": "高橋優"
+    },
+    {
+      "time": "09:10:03",
+      "title": "Just Keep Watching",
+      "artist": "Tate McRae"
+    },
+    {
+      "time": "09:12:23",
+      "title": "Capable of love",
+      "artist": "PinkPantheress"
+    },
+    {
+      "time": "09:15:50",
+      "title": "ヘロン",
+      "artist": "山下達郎"
+    },
+    {
+      "time": "09:20:16",
+      "title": "Stand By Me",
+      "artist": "Oasis"
+    },
+    {
+      "time": "09:26:05",
+      "title": "White Christmas",
+      "artist": "Bing Crosby"
+    },
+    {
+      "time": "09:29:59",
+      "title": "Spin Big",
+      "artist": "BONNIE PINK"
+    },
+    {
+      "time": "09:34:10",
+      "title": "In This Life",
+      "artist": "Delta Goodrem"
+    },
+    {
+      "time": "09:37:48",
+      "title": "Can't Wait 'Til Christmas",
+      "artist": "宇多田ヒカル"
+    },
+    {
+      "time": "09:41:18",
+      "title": "Alone",
+      "artist": "Heart"
+    },
+    {
+      "time": "09:44:51",
+      "title": "Orinoco Flow",
+      "artist": "Enya"
+    },
+    {
+      "time": "09:50:05",
+      "title": "When You Wish Upon A Star",
+      "artist": "Billy Joel"
+    },
+    {
+      "time": "09:53:40",
+      "title": "らしさ",
+      "artist": "Official髭男dism"
+    },
+    {
+      "time": "09:58:37",
+      "title": "X's feat. Icona Pop",
+      "artist": "CMC$ & GRX"
+    },
+    {
+      "time": "10:02:07",
+      "title": "When I Think of You",
+      "artist": "Janet Jackson"
+    },
+    {
+      "time": "10:05:54",
+      "title": "Orion",
+      "artist": "Apink"
+    },
+    {
+      "time": "10:10:33",
+      "title": "White Horses",
+      "artist": "Wolf Alice"
+    },
+    {
+      "time": "10:14:57",
+      "title": "Miss You Like Crazy",
+      "artist": "Natalie Cole"
+    },
+    {
+      "time": "10:18:36",
+      "title": "Xmas Santa",
+      "artist": "絢香"
+    },
+    {
+      "time": "10:22:22",
+      "title": "Perfect To Me",
+      "artist": "Anne-Marie"
+    },
+    {
+      "time": "10:25:34",
+      "title": "Let It Snow",
+      "artist": "Boyz II Men"
+    },
+    {
+      "time": "10:30:28",
+      "title": "笑ったり転んだり",
+      "artist": "ハンバート ハンバート"
+    },
+    {
+      "time": "10:33:38",
+      "title": "By Your Side feat. RAYE",
+      "artist": "Jonas Blue"
+    },
+    {
+      "time": "10:36:52",
+      "title": "沈丁花",
+      "artist": "DISH//"
+    },
+    {
+      "time": "10:40:34",
+      "title": "Santa Tell Me",
+      "artist": "Ariana Grande"
+    },
+    {
+      "time": "10:43:53",
+      "title": "Chase the Chance",
+      "artist": "安室奈美恵"
+    },
+    {
+      "time": "10:48:56",
+      "title": "ファーストキス",
+      "artist": "離婚伝説"
+    },
+    {
+      "time": "10:53:01",
+      "title": "Mr Right",
+      "artist": "Mae Stephens & Meghan Trainor"
+    },
+    {
+      "time": "10:55:40",
+      "title": "Good-bye My Loneliness",
+      "artist": "ZARD"
+    },
+    {
+      "time": "11:00:02",
+      "title": "Little Drummer Boy",
+      "artist": "Chicago"
+    },
+    {
+      "time": "11:03:52",
+      "title": "Casablanca",
+      "artist": "Bertie Higgins"
+    },
+    {
+      "time": "11:09:28",
+      "title": "CUBE",
+      "artist": "iri"
+    },
+    {
+      "time": "11:12:46",
+      "title": "Lonesome Loser",
+      "artist": "Little River Band"
+    },
+    {
+      "time": "11:16:25",
+      "title": "My Body",
+      "artist": "HANA"
+    },
+    {
+      "time": "11:19:44",
+      "title": "Please Come Home for Christmas",
+      "artist": "Jon Bon Jovi"
+    },
+    {
+      "time": "11:22:31",
+      "title": "クリスマスキャロルの頃には",
+      "artist": "稲垣潤一"
+    },
+    {
+      "time": "11:27:48",
+      "title": "Pearl-White Eve",
+      "artist": "松田聖子"
+    },
+    {
+      "time": "11:32:27",
+      "title": "Life Is Cool",
+      "artist": "Sweetbox"
+    },
+    {
+      "time": "11:35:10",
+      "title": "Let Me Love You",
+      "artist": "Amber Mark"
+    },
+    {
+      "time": "11:38:39",
+      "title": "Unforgive",
+      "artist": "SHE'S"
+    },
+    {
+      "time": "11:41:59",
+      "title": "You Make It Feel Like Christmas feat. Blake Shelton",
+      "artist": "Gwen Stefani"
+    },
+    {
+      "time": "11:44:29",
+      "title": "Morning Train",
+      "artist": "Sheena Easton"
+    },
+    {
+      "time": "11:48:33",
+      "title": "BADモード",
+      "artist": "宇多田ヒカル"
+    },
+    {
+      "time": "11:53:28",
+      "title": "You Deserve It All ",
+      "artist": "John Legend"
+    },
+    {
+      "time": "11:56:35",
+      "title": "My Life Would Suck Without You",
+      "artist": "Kelly Clarkson"
+    },
+    {
+      "time": "12:00:14",
+      "title": "Secret Garden",
+      "artist": "BE:FIRST"
+    },
+    {
+      "time": "12:03:24",
+      "title": "Too Much Heaven",
+      "artist": "Bee Gees"
+    },
+    {
+      "time": "12:09:19",
+      "title": "前前前世",
+      "artist": "Vaundy"
+    },
+    {
+      "time": "12:13:33",
+      "title": "It Took Me So Long To Get Here (But Here I Am)",
+      "artist": "KT Tunstall"
+    },
+    {
+      "time": "12:17:44",
+      "title": "シーソーゲーム 〜勇敢な恋の歌〜",
+      "artist": "Mr.Children"
+    },
+    {
+      "time": "12:22:05",
+      "title": "I Get High",
+      "artist": "Tones and I"
+    },
+    {
+      "time": "12:26:18",
+      "title": "IRIS OUT",
+      "artist": "米津玄師"
+    },
+    {
+      "time": "12:29:35",
+      "title": "遠い街のどこかで",
+      "artist": "中山美穂"
+    },
+    {
+      "time": "12:35:23",
+      "title": "Sexual Healing",
+      "artist": "Marvin Gaye"
+    },
+    {
+      "time": "12:39:14",
+      "title": "サンキュ.",
+      "artist": "DREAMS COME TRUE"
+    },
+    {
+      "time": "12:42:49",
+      "title": "When You Wish Upon A Star",
+      "artist": "N'Sync"
+    },
+    {
+      "time": "12:45:57",
+      "title": "Flow",
+      "artist": "Perfume"
+    },
+    {
+      "time": "12:49:46",
+      "title": "ロッヂで待つクリスマス",
+      "artist": "松任谷由実"
+    },
+    {
+      "time": "12:53:41",
+      "title": "Fame is a Gun",
+      "artist": "Addison Rae"
+    },
+    {
+      "time": "12:56:40",
+      "title": "Stand By You",
+      "artist": "Official髭男dism"
+    },
+    {
+      "time": "13:00:41",
+      "title": "Goodbye Yesterday",
+      "artist": "今井美樹"
+    },
+    {
+      "time": "13:05:42",
+      "title": "Be My Eyes",
+      "artist": "Pentatonix"
+    },
+    {
+      "time": "13:10:12",
+      "title": "灯を護る",
+      "artist": "スピッツ"
+    },
+    {
+      "time": "13:13:39",
+      "title": "O Come All Ye Faithful",
+      "artist": "TAKE 6"
+    },
+    {
+      "time": "13:15:57",
+      "title": "サヨナラ",
+      "artist": "GAO"
+    },
+    {
+      "time": "13:19:36",
+      "title": "I Will Be Here for You",
+      "artist": "Michael W. Smith"
+    },
+    {
+      "time": "13:24:00",
+      "title": "こたえあわせ",
+      "artist": "大森元貴"
+    },
+    {
+      "time": "13:27:20",
+      "title": "Bad Boy",
+      "artist": "Red Velvet"
+    },
+    {
+      "time": "13:30:44",
+      "title": "Jessie",
+      "artist": "Joshua Kadison"
+    },
+    {
+      "time": "13:34:48",
+      "title": "Sally",
+      "artist": "LOVE PSYCHEDELICO"
+    },
+    {
+      "time": "13:38:09",
+      "title": "Afterglow",
+      "artist": "Ed Sheeran"
+    },
+    {
+      "time": "13:41:06",
+      "title": "ジユーダム",
+      "artist": "椎名林檎"
+    },
+    {
+      "time": "13:44:54",
+      "title": "Sally, When The Wine Runs Out",
+      "artist": "ROLE MODEL"
+    },
+    {
+      "time": "13:48:26",
+      "title": "RUSH",
+      "artist": "RIRI"
+    },
+    {
+      "time": "13:51:33",
+      "title": "If This Is It",
+      "artist": "Huey Lewis and the News"
+    },
+    {
+      "time": "13:55:07",
+      "title": "聖なる夜の贈り物",
+      "artist": "秦基博"
+    },
+    {
+      "time": "14:00:16",
+      "title": "Pure Shores",
+      "artist": "All Saints"
+    },
+    {
+      "time": "14:05:38",
+      "title": "LOVE SONG",
+      "artist": "Justin Bieber"
+    },
+    {
+      "time": "14:08:25",
+      "title": "First Christmas feat. JUNON (BE:FIRST)",
+      "artist": "REIKO"
+    },
+    {
+      "time": "14:12:40",
+      "title": "One on One",
+      "artist": "Daryl Hall & John Oates"
+    },
+    {
+      "time": "14:16:21",
+      "title": "doku",
+      "artist": "yama"
+    },
+    {
+      "time": "14:19:13",
+      "title": "WITH YOU",
+      "artist": "JUJU"
+    },
+    {
+      "time": "14:25:59",
+      "title": "My Answer",
+      "artist": "緑黄色社会"
+    },
+    {
+      "time": "14:29:24",
+      "title": "Silent Night",
+      "artist": "Enya"
+    },
+    {
+      "time": "14:33:04",
+      "title": "time will tell ",
+      "artist": "宇多田ヒカル"
+    },
+    {
+      "time": "14:38:15",
+      "title": "Combust",
+      "artist": "Lauv"
+    },
+    {
+      "time": "14:40:30",
+      "title": "Polytope",
+      "artist": "三浦大知"
+    },
+    {
+      "time": "14:46:44",
+      "title": "Inside Out",
+      "artist": "Zedd ＆ Griff"
+    },
+    {
+      "time": "14:49:45",
+      "title": "turn over?",
+      "artist": "Mr.Children"
+    },
+    {
+      "time": "14:53:04",
+      "title": "Lost In Your Eyes",
+      "artist": "Debbie Gibson"
+    },
+    {
+      "time": "14:56:30",
+      "title": "素敵な夜",
+      "artist": "KIRINJI"
+    },
+    {
+      "time": "15:03:15",
+      "title": "ARIGATTO",
+      "artist": "m-flo loves RIP SLYME"
+    },
+    {
+      "time": "15:07:13",
+      "title": "So Am I",
+      "artist": "Ava Max"
+    },
+    {
+      "time": "15:11:22",
+      "title": "Voyage",
+      "artist": "幾田りら"
+    },
+    {
+      "time": "15:14:56",
+      "title": "Don't Be Cruel",
+      "artist": "Bobby Brown"
+    },
+    {
+      "time": "15:18:55",
+      "title": "コイワズライ",
+      "artist": "Aimer"
+    },
+    {
+      "time": "15:22:43",
+      "title": "空と青",
+      "artist": "家入レオ"
+    },
+    {
+      "time": "15:26:49",
+      "title": "Nice To Each Other",
+      "artist": "Olivia Dean"
+    },
+    {
+      "time": "15:31:06",
+      "title": "空の青さを知る人よ",
+      "artist": "あいみょん"
+    },
+    {
+      "time": "15:35:57",
+      "title": "Merry Christmas",
+      "artist": "Ed Sheeran & Elton John"
+    },
+    {
+      "time": "15:39:18",
+      "title": "クリスマスイブニング",
+      "artist": "Little Glee Monster"
+    },
+    {
+      "time": "15:43:03",
+      "title": "Leather and Lace",
+      "artist": "Stevie Nicks and Don Henley"
+    },
+    {
+      "time": "15:46:39",
+      "title": "Better Place",
+      "artist": "Rachel Platten"
+    },
+    {
+      "time": "15:50:19",
+      "title": "雪のクリスマス",
+      "artist": "DREAMS COME TRUE"
+    },
+    {
+      "time": "15:54:54",
+      "title": "Times Like These",
+      "artist": "Addison Rae"
+    },
+    {
+      "time": "15:58:39",
+      "title": "ハイビスカス",
+      "artist": "ナオト・インティライミ"
+    },
+    {
+      "time": "16:02:23",
+      "title": "My Heart Is Failing Me",
+      "artist": "Riff"
+    },
+    {
+      "time": "16:05:54",
+      "title": "BOY MEETS GIRL",
+      "artist": "trf"
+    },
+    {
+      "time": "16:11:39",
+      "title": "Gameboy",
+      "artist": "KATSEYE"
+    },
+    {
+      "time": "16:14:41",
+      "title": "TOMORROW",
+      "artist": "岡本真夜"
+    },
+    {
+      "time": "16:19:18",
+      "title": "Christmas (Baby Please Come Home) ",
+      "artist": "Meghan Trainor"
+    },
+    {
+      "time": "16:21:42",
+      "title": "Prema",
+      "artist": "藤井風"
+    },
+    {
+      "time": "16:25:57",
+      "title": "Your Wildest Dreams",
+      "artist": "Moody Blues"
+    },
+    {
+      "time": "16:31:30",
+      "title": "Next Chapter",
+      "artist": "ストレイテナー"
+    },
+    {
+      "time": "16:36:05",
+      "title": "Amazing Grace (My Chains Are Gone)",
+      "artist": "Pentatonix"
+    },
+    {
+      "time": "16:40:22",
+      "title": "パラレル＝",
+      "artist": "指田フミヤ"
+    },
+    {
+      "time": "16:44:38",
+      "title": "Foolish",
+      "artist": "Ashanti"
+    },
+    {
+      "time": "16:48:18",
+      "title": "Crazy Little Thing Called Love",
+      "artist": "Queen"
+    },
+    {
+      "time": "16:51:43",
+      "title": "Last Friday Night",
+      "artist": "Katy Perry"
+    },
+    {
+      "time": "16:55:30",
+      "title": "Your Song",
+      "artist": "LOVE PSYCHEDELICO"
+    },
+    {
+      "time": "17:10:13",
+      "title": "Feel",
+      "artist": "羊文学"
+    },
+    {
+      "time": "17:14:12",
+      "title": "Heart and Soul",
+      "artist": "T'Pau"
+    },
+    {
+      "time": "17:18:17",
+      "title": "大空で抱きしめて",
+      "artist": "宇多田ヒカル"
+    },
+    {
+      "time": "17:22:44",
+      "title": "Lady Lady",
+      "artist": "Olivia Dean"
+    },
+    {
+      "time": "17:26:08",
+      "title": "Kissin' Christmas (クリスマスだからじゃない) 2023",
+      "artist": "桑田佳祐 & 松任谷由実"
+    },
+    {
+      "time": "17:33:10",
+      "title": "樹海の糸",
+      "artist": "Cocco"
+    },
+    {
+      "time": "17:38:28",
+      "title": "I Got You",
+      "artist": "Bebe Rexha"
+    },
+    {
+      "time": "17:41:33",
+      "title": "君と出逢って",
+      "artist": "ケツメイシ"
+    },
+    {
+      "time": "17:47:29",
+      "title": "It's Not Christmas Till Somebady Cries",
+      "artist": "Carly Rae Jepsen"
+    },
+    {
+      "time": "17:50:17",
+      "title": "コトバリズム",
+      "artist": "スキマスイッチ"
+    },
+    {
+      "time": "17:54:26",
+      "title": "If You Leave",
+      "artist": "OMD"
+    },
+    {
+      "time": "18:00:01",
+      "title": "GOOD DAY",
+      "artist": "Mrs. GREEN APPLE"
+    },
+    {
+      "time": "18:04:13",
+      "title": "I Swear",
+      "artist": "All-4-One"
+    },
+    {
+      "time": "18:08:21",
+      "title": "GOLDEN",
+      "artist": "梅田サイファー"
+    },
+    {
+      "time": "18:12:50",
+      "title": "Loving is Easy feat. Benny Sings",
+      "artist": "Rex Orange County"
+    },
+    {
+      "time": "18:15:14",
+      "title": "2 Become 1",
+      "artist": "Spice Girls"
+    },
+    {
+      "time": "18:19:00",
+      "title": "DEAR...again",
+      "artist": "広瀬香美"
+    },
+    {
+      "time": "18:24:29",
+      "title": "Last Christmas",
+      "artist": "Wham!"
+    },
+    {
+      "time": "18:28:47",
+      "title": "カブトムシ",
+      "artist": "aiko"
+    },
+    {
+      "time": "18:34:00",
+      "title": "The Mood",
+      "artist": "FLO & KAYTRANADA"
+    },
+    {
+      "time": "18:36:43",
+      "title": "泣き笑いのエピソード",
+      "artist": "秦基博"
+    },
+    {
+      "time": "18:41:11",
+      "title": "Skylight",
+      "artist": "Gabrielle Aplin"
+    },
+    {
+      "time": "18:44:56",
+      "title": "1991",
+      "artist": "米津玄師"
+    },
+    {
+      "time": "18:48:35",
+      "title": "涙そうそう",
+      "artist": "夏川りみ"
+    },
+    {
+      "time": "18:52:44",
+      "title": "シンデレラ・クリスマス",
+      "artist": "KinKi Kids"
+    }
+  ]
+}

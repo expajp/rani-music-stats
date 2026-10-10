@@ -1,0 +1,791 @@
+{
+  "date": "2026-10-09",
+  "fetchedAt": "2026-10-10T11:38:34.926Z",
+  "plays": [
+    {
+      "time": "08:30:14",
+      "title": "Golden",
+      "artist": "HUNTR/X"
+    },
+    {
+      "time": "08:33:23",
+      "title": "A New Day",
+      "artist": "Beverly"
+    },
+    {
+      "time": "08:37:54",
+      "title": "You'll Be In My Heart",
+      "artist": "Phil Collins"
+    },
+    {
+      "time": "08:42:05",
+      "title": "あぶく",
+      "artist": "ヨルシカ"
+    },
+    {
+      "time": "08:45:54",
+      "title": "Sing",
+      "artist": "Travis"
+    },
+    {
+      "time": "08:49:27",
+      "title": "金木犀",
+      "artist": "アイナ・ジ・エンド"
+    },
+    {
+      "time": "08:53:18",
+      "title": "Changes",
+      "artist": "Charlie Puth"
+    },
+    {
+      "time": "08:56:17",
+      "title": "magic!",
+      "artist": "Little Glee Monster"
+    },
+    {
+      "time": "09:00:13",
+      "title": "10時の方角",
+      "artist": "sumika"
+    },
+    {
+      "time": "09:03:49",
+      "title": "Englishman in New York",
+      "artist": "Sting"
+    },
+    {
+      "time": "09:09:14",
+      "title": "The Wave",
+      "artist": "Jungle"
+    },
+    {
+      "time": "09:12:29",
+      "title": "ロビンソン",
+      "artist": "スピッツ"
+    },
+    {
+      "time": "09:16:38",
+      "title": "Gimme Love",
+      "artist": "Sia"
+    },
+    {
+      "time": "09:19:28",
+      "title": "Shout To The Top!",
+      "artist": "The Style Council"
+    },
+    {
+      "time": "09:22:39",
+      "title": "遺書",
+      "artist": "キタニタツヤ"
+    },
+    {
+      "time": "09:25:40",
+      "title": "Camera",
+      "artist": "Charli xcx"
+    },
+    {
+      "time": "09:29:17",
+      "title": "三日月",
+      "artist": "絢香"
+    },
+    {
+      "time": "09:33:43",
+      "title": "Underdog",
+      "artist": "Alicia Keys"
+    },
+    {
+      "time": "09:37:04",
+      "title": "光るなら",
+      "artist": "Goose house"
+    },
+    {
+      "time": "09:41:07",
+      "title": "Look Away",
+      "artist": "Chicago"
+    },
+    {
+      "time": "09:45:00",
+      "title": "ペリドット",
+      "artist": "GRe4N BOYZ"
+    },
+    {
+      "time": "09:49:20",
+      "title": "Love Someone",
+      "artist": "Lukas Graham"
+    },
+    {
+      "time": "09:52:40",
+      "title": "運命さがし",
+      "artist": "マカロニえんぴつ"
+    },
+    {
+      "time": "09:55:57",
+      "title": "I Got Your Back",
+      "artist": "ILLIT & HANA"
+    },
+    {
+      "time": "09:58:16",
+      "title": "I Want It That Way",
+      "artist": "Backstreet Boys"
+    },
+    {
+      "time": "10:01:43",
+      "title": "ハミング",
+      "artist": "幾田りら"
+    },
+    {
+      "time": "10:05:15",
+      "title": "What Am I ",
+      "artist": "Why Don't We"
+    },
+    {
+      "time": "10:09:31",
+      "title": "Free to Love feat. Nile Rodgers",
+      "artist": "Duran Duran"
+    },
+    {
+      "time": "10:12:31",
+      "title": "Rain",
+      "artist": "秦基博"
+    },
+    {
+      "time": "10:17:08",
+      "title": "Nite And Day",
+      "artist": "Al B. Sure!"
+    },
+    {
+      "time": "10:20:54",
+      "title": "Talking To The Moon ",
+      "artist": "Bruno Mars"
+    },
+    {
+      "time": "10:24:24",
+      "title": "夢で逢えたら",
+      "artist": "ラッツ&スター"
+    },
+    {
+      "time": "10:29:27",
+      "title": "十六夜の月",
+      "artist": "w-inds."
+    },
+    {
+      "time": "10:34:32",
+      "title": "Bobby",
+      "artist": "Phoebe Bridgers"
+    },
+    {
+      "time": "10:38:23",
+      "title": "公園通り",
+      "artist": "ゆず"
+    },
+    {
+      "time": "10:42:05",
+      "title": "ALL THE WAYS",
+      "artist": "Meghan Trainor"
+    },
+    {
+      "time": "10:44:55",
+      "title": "Shape of a Woman",
+      "artist": "Lady Gaga"
+    },
+    {
+      "time": "10:49:29",
+      "title": "No Epilogue",
+      "artist": "アイナ・ジ・エンド"
+    },
+    {
+      "time": "10:53:06",
+      "title": "Tough Love feat. Agnes, Vargas & Lagola",
+      "artist": "Avicii"
+    },
+    {
+      "time": "10:56:09",
+      "title": "奏",
+      "artist": "スキマスイッチ"
+    },
+    {
+      "time": "11:01:12",
+      "title": "Get Out",
+      "artist": "CHVRCHES"
+    },
+    {
+      "time": "11:04:56",
+      "title": "アンリミテッド",
+      "artist": "Da-iCE"
+    },
+    {
+      "time": "11:09:38",
+      "title": "うるさ",
+      "artist": "Ayase"
+    },
+    {
+      "time": "11:12:47",
+      "title": "Cherish",
+      "artist": "Madonna"
+    },
+    {
+      "time": "11:16:28",
+      "title": "蒼の世界",
+      "artist": "レミオロメン"
+    },
+    {
+      "time": "11:21:11",
+      "title": "Story of My Life",
+      "artist": "One Direction"
+    },
+    {
+      "time": "11:25:09",
+      "title": "Life",
+      "artist": "Des'ree"
+    },
+    {
+      "time": "11:29:33",
+      "title": "君と出逢って",
+      "artist": "ケツメイシ"
+    },
+    {
+      "time": "11:35:28",
+      "title": "Outside feat. Ellie Goulding",
+      "artist": "Calvin Harris"
+    },
+    {
+      "time": "11:39:08",
+      "title": "Motivation",
+      "artist": "Carly Rae Jepsen"
+    },
+    {
+      "time": "11:42:56",
+      "title": "アン／ペア",
+      "artist": "KinKi Kids"
+    },
+    {
+      "time": "11:46:29",
+      "title": "Build a Bitch",
+      "artist": "Bella Poarch"
+    },
+    {
+      "time": "11:49:39",
+      "title": "BDZ",
+      "artist": "TWICE"
+    },
+    {
+      "time": "11:52:49",
+      "title": "THE GIFT",
+      "artist": "BLUE"
+    },
+    {
+      "time": "12:00:45",
+      "title": "Power of Love",
+      "artist": "Huey Lewis and the News"
+    },
+    {
+      "time": "12:04:24",
+      "title": "金木犀の夜",
+      "artist": "きのこ帝国"
+    },
+    {
+      "time": "12:09:31",
+      "title": "彩雲",
+      "artist": "ストレイテナー"
+    },
+    {
+      "time": "12:13:35",
+      "title": "Shake Hip!",
+      "artist": "米米CLUB"
+    },
+    {
+      "time": "12:17:09",
+      "title": "アンビバレント",
+      "artist": "Uru"
+    },
+    {
+      "time": "12:21:06",
+      "title": "WAになっておどろう",
+      "artist": "V6"
+    },
+    {
+      "time": "12:25:15",
+      "title": "時空超えてユニバース",
+      "artist": "M!LK"
+    },
+    {
+      "time": "12:29:51",
+      "title": "VIBE",
+      "artist": "GENERATIONS from EXILE TRIBE"
+    },
+    {
+      "time": "12:32:54",
+      "title": "Volare",
+      "artist": "Gipsy Kings"
+    },
+    {
+      "time": "12:36:28",
+      "title": "ハレンチ",
+      "artist": "ちゃんみな"
+    },
+    {
+      "time": "12:39:41",
+      "title": "花言葉",
+      "artist": "Mr.Children"
+    },
+    {
+      "time": "12:42:54",
+      "title": "オリジナルフェイク",
+      "artist": "三浦大知"
+    },
+    {
+      "time": "12:46:17",
+      "title": "Fight Song",
+      "artist": "Rachel Platten"
+    },
+    {
+      "time": "12:50:46",
+      "title": "ズルい女",
+      "artist": "シャ乱Q"
+    },
+    {
+      "time": "12:54:45",
+      "title": "君の知らない物語",
+      "artist": "supercell"
+    },
+    {
+      "time": "13:00:17",
+      "title": "声",
+      "artist": "羊文学"
+    },
+    {
+      "time": "13:04:33",
+      "title": "RAY",
+      "artist": "BUMP OF CHICKEN"
+    },
+    {
+      "time": "13:09:15",
+      "title": "Missing",
+      "artist": "BE:FIRST"
+    },
+    {
+      "time": "13:12:00",
+      "title": "2002",
+      "artist": "Anne-Marie"
+    },
+    {
+      "time": "13:15:02",
+      "title": "夢をあきらめないで",
+      "artist": "岡村孝子"
+    },
+    {
+      "time": "13:19:18",
+      "title": "Love In Exile feat. Michael McDonald & Kenny Loggins",
+      "artist": "Charlie Puth"
+    },
+    {
+      "time": "13:22:31",
+      "title": "IRIS OUT",
+      "artist": "米津玄師"
+    },
+    {
+      "time": "13:24:54",
+      "title": "笑ったり転んだり",
+      "artist": "ハンバート ハンバート"
+    },
+    {
+      "time": "13:29:15",
+      "title": "AFTER RAIN",
+      "artist": "eill"
+    },
+    {
+      "time": "13:32:03",
+      "title": "Release Me",
+      "artist": "Wilson Phillips"
+    },
+    {
+      "time": "13:35:50",
+      "title": "ワタリドリ",
+      "artist": "[Alexandros]"
+    },
+    {
+      "time": "13:39:56",
+      "title": "Billie Jean",
+      "artist": "Michael Jackson"
+    },
+    {
+      "time": "13:44:38",
+      "title": "Make Me Like You",
+      "artist": "Gwen Stefani"
+    },
+    {
+      "time": "13:49:20",
+      "title": "Dai Dai",
+      "artist": "Shakira & Burna Boy"
+    },
+    {
+      "time": "13:52:57",
+      "title": "ヤングアダルト",
+      "artist": "マカロニえんぴつ"
+    },
+    {
+      "time": "13:57:08",
+      "title": "Missing",
+      "artist": "Everything but the Girl"
+    },
+    {
+      "time": "14:00:49",
+      "title": "もう少しだけ",
+      "artist": "YOASOBI"
+    },
+    {
+      "time": "14:04:24",
+      "title": "Sugar",
+      "artist": "Maroon 5"
+    },
+    {
+      "time": "14:09:31",
+      "title": "RUNWAY",
+      "artist": "Lady Gaga & Doechii"
+    },
+    {
+      "time": "14:12:19",
+      "title": "Chessboard",
+      "artist": "Official髭男dism"
+    },
+    {
+      "time": "14:17:33",
+      "title": "Love Is",
+      "artist": "Vanessa Williams & Brian McKnight"
+    },
+    {
+      "time": "14:21:19",
+      "title": "Brand New",
+      "artist": "Mrs. GREEN APPLE"
+    },
+    {
+      "time": "14:24:44",
+      "title": "Don't Fall in Love with a Dreamer",
+      "artist": "Kenny Rogers with Kim Carnes"
+    },
+    {
+      "time": "14:29:30",
+      "title": "GO GHOST",
+      "artist": "King Gnu"
+    },
+    {
+      "time": "14:32:15",
+      "title": "What I Like About You feat. Theresa Rex",
+      "artist": "Jonas Blue"
+    },
+    {
+      "time": "14:35:46",
+      "title": "GLORIA",
+      "artist": "ZIGGY"
+    },
+    {
+      "time": "14:39:52",
+      "title": "Drive Safe. ",
+      "artist": "Myles Smith & Niall Horan"
+    },
+    {
+      "time": "14:43:07",
+      "title": "もしも運命の人がいるのなら",
+      "artist": "西野カナ"
+    },
+    {
+      "time": "14:49:35",
+      "title": "Sk8er Boi",
+      "artist": "Avril Lavigne"
+    },
+    {
+      "time": "14:52:54",
+      "title": "無限未来",
+      "artist": "Perfume"
+    },
+    {
+      "time": "14:56:28",
+      "title": "When I Look Into Your Eyes",
+      "artist": "FireHouse"
+    },
+    {
+      "time": "15:03:11",
+      "title": "いろはもみじ",
+      "artist": "一青窈"
+    },
+    {
+      "time": "15:07:09",
+      "title": "How To Be Lonely",
+      "artist": "Rita Ora"
+    },
+    {
+      "time": "15:11:11",
+      "title": "幸せについて、僕が考えたこと",
+      "artist": "優里"
+    },
+    {
+      "time": "15:14:48",
+      "title": "The Real Thing",
+      "artist": "Kenny Loggins"
+    },
+    {
+      "time": "15:20:15",
+      "title": "バブル - Bubble",
+      "artist": "tuki."
+    },
+    {
+      "time": "15:23:28",
+      "title": "サムデイ・スマイル ",
+      "artist": "尾崎裕哉"
+    },
+    {
+      "time": "15:29:17",
+      "title": "嘘月",
+      "artist": "ヨルシカ"
+    },
+    {
+      "time": "15:34:00",
+      "title": "All She Wanna Do feat. Saweetie",
+      "artist": "John Legend"
+    },
+    {
+      "time": "15:37:10",
+      "title": "Letters",
+      "artist": "Furui Riho"
+    },
+    {
+      "time": "15:40:36",
+      "title": "Jessie's Girl",
+      "artist": "Rick Springfield"
+    },
+    {
+      "time": "15:43:44",
+      "title": "M",
+      "artist": "Princess Princess"
+    },
+    {
+      "time": "15:49:21",
+      "title": "In the Stars feat. Kiiara",
+      "artist": "ONE OK ROCK"
+    },
+    {
+      "time": "15:52:38",
+      "title": "Love Sensation",
+      "artist": "Madonna"
+    },
+    {
+      "time": "15:56:23",
+      "title": "#302",
+      "artist": "平井堅"
+    },
+    {
+      "time": "16:00:37",
+      "title": "BOY MEETS GIRL",
+      "artist": "trf"
+    },
+    {
+      "time": "16:05:10",
+      "title": "Love You Like A Love Song",
+      "artist": "Selena Gomez & The Scene"
+    },
+    {
+      "time": "16:09:27",
+      "title": "Cruel World",
+      "artist": "Holly Humberstone"
+    },
+    {
+      "time": "16:12:49",
+      "title": "全力少年",
+      "artist": "スキマスイッチ"
+    },
+    {
+      "time": "16:17:07",
+      "title": "Lonely",
+      "artist": "Diplo & Jonas Brothers"
+    },
+    {
+      "time": "16:19:22",
+      "title": "好きでいて",
+      "artist": "Ado"
+    },
+    {
+      "time": "16:23:22",
+      "title": "If",
+      "artist": "Bread"
+    },
+    {
+      "time": "16:25:50",
+      "title": "Running Wild",
+      "artist": "JIN"
+    },
+    {
+      "time": "16:29:28",
+      "title": "気まぐれ",
+      "artist": "Vaundy"
+    },
+    {
+      "time": "16:32:54",
+      "title": "1, 2, 3 feat. Jason Derulo & De La Ghetto",
+      "artist": "Sofia Reyes"
+    },
+    {
+      "time": "16:36:04",
+      "title": "本能",
+      "artist": "椎名林檎"
+    },
+    {
+      "time": "16:40:07",
+      "title": "Opalite",
+      "artist": "Taylor Swift"
+    },
+    {
+      "time": "16:43:56",
+      "title": "終わりのない空",
+      "artist": "秦基博"
+    },
+    {
+      "time": "16:49:32",
+      "title": "Bad Boy!",
+      "artist": "Bella Poarch"
+    },
+    {
+      "time": "16:52:14",
+      "title": "なんでもないよ、",
+      "artist": "マカロニえんぴつ"
+    },
+    {
+      "time": "16:55:36",
+      "title": "Don't You Want Me",
+      "artist": "The Human League"
+    },
+    {
+      "time": "17:10:12",
+      "title": "Supermarket",
+      "artist": "SEKAI NO OWARI"
+    },
+    {
+      "time": "17:14:36",
+      "title": "The Riddle",
+      "artist": "Nik Kershaw"
+    },
+    {
+      "time": "17:18:18",
+      "title": "開幕宣言",
+      "artist": "Novelbright"
+    },
+    {
+      "time": "17:22:45",
+      "title": "Dance Dance Dance!",
+      "artist": "Barry Can't Swim"
+    },
+    {
+      "time": "17:26:17",
+      "title": "花束を君に",
+      "artist": "宇多田ヒカル"
+    },
+    {
+      "time": "17:30:50",
+      "title": "TOMORROW",
+      "artist": "岡本真夜"
+    },
+    {
+      "time": "17:35:27",
+      "title": "Hero",
+      "artist": "Enrique Iglesias"
+    },
+    {
+      "time": "17:39:43",
+      "title": "一瞬",
+      "artist": "Bialystocks"
+    },
+    {
+      "time": "17:43:00",
+      "title": "Will You Still Love Me?",
+      "artist": "Chicago"
+    },
+    {
+      "time": "17:46:58",
+      "title": "飛行艇",
+      "artist": "King Gnu"
+    },
+    {
+      "time": "17:51:13",
+      "title": "Heartbeat Song",
+      "artist": "Kelly Clarkson"
+    },
+    {
+      "time": "17:54:27",
+      "title": "大空港",
+      "artist": "離婚伝説"
+    },
+    {
+      "time": "18:00:24",
+      "title": "Umm",
+      "artist": "sumika"
+    },
+    {
+      "time": "18:04:12",
+      "title": "Escapade",
+      "artist": "Janet Jackson"
+    },
+    {
+      "time": "18:08:52",
+      "title": "雲丹と栗",
+      "artist": "ずっと真夜中でいいのに。"
+    },
+    {
+      "time": "18:13:15",
+      "title": "The Way feat. Mac Miller",
+      "artist": "Ariana Grande"
+    },
+    {
+      "time": "18:16:56",
+      "title": "Nobody Knows",
+      "artist": "The Tony Rich Project"
+    },
+    {
+      "time": "18:21:58",
+      "title": "紫の夜を越えて",
+      "artist": "スピッツ"
+    },
+    {
+      "time": "18:26:05",
+      "title": "Way Back Into Love",
+      "artist": "Hugh Grant ft. Haley Bennett"
+    },
+    {
+      "time": "18:30:33",
+      "title": "負けないで",
+      "artist": "ZARD"
+    },
+    {
+      "time": "18:34:15",
+      "title": "Danceteria",
+      "artist": "Madonna"
+    },
+    {
+      "time": "18:38:08",
+      "title": "ヒカリ",
+      "artist": "ゴスペラーズ"
+    },
+    {
+      "time": "18:41:56",
+      "title": "Die For Me",
+      "artist": "ZAYN"
+    },
+    {
+      "time": "18:44:51",
+      "title": "POP STAR",
+      "artist": "平井堅"
+    },
+    {
+      "time": "18:49:20",
+      "title": "Try Everything",
+      "artist": "Shakira"
+    },
+    {
+      "time": "18:52:29",
+      "title": "Money, Love & Death",
+      "artist": "Garrett Nash"
+    },
+    {
+      "time": "18:55:08",
+      "title": "夜鷹 - Yodaka",
+      "artist": "米津玄師"
+    }
+  ]
+}

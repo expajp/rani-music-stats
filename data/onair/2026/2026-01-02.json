@@ -1,0 +1,641 @@
+{
+  "date": "2026-01-02",
+  "fetchedAt": "2026-10-10T11:28:55.275Z",
+  "plays": [
+    {
+      "time": "09:00:27",
+      "title": "TOKIO",
+      "artist": "沢田研二"
+    },
+    {
+      "time": "09:04:43",
+      "title": "RIDE ON TIME",
+      "artist": "山下達郎"
+    },
+    {
+      "time": "09:10:10",
+      "title": "Yes-No",
+      "artist": "オフコース"
+    },
+    {
+      "time": "09:14:32",
+      "title": "長い夜",
+      "artist": "松山千春"
+    },
+    {
+      "time": "09:19:27",
+      "title": "守ってあげたい",
+      "artist": "松任谷由実"
+    },
+    {
+      "time": "09:23:27",
+      "title": "カナリア諸島にて",
+      "artist": "大滝詠一"
+    },
+    {
+      "time": "09:27:55",
+      "title": "赤いスイートピー",
+      "artist": "松田聖子"
+    },
+    {
+      "time": "09:31:25",
+      "title": "待つわ",
+      "artist": "あみん"
+    },
+    {
+      "time": "09:35:40",
+      "title": "時をかける少女",
+      "artist": "原田知世"
+    },
+    {
+      "time": "09:39:27",
+      "title": "夏のクラクション",
+      "artist": "稲垣潤一"
+    },
+    {
+      "time": "09:43:05",
+      "title": "め組のひと",
+      "artist": "ラッツ&スター"
+    },
+    {
+      "time": "09:47:19",
+      "title": "そして僕は途方に暮れる",
+      "artist": "大沢誉志幸"
+    },
+    {
+      "time": "09:51:13",
+      "title": "六本木心中",
+      "artist": "アン・ルイス"
+    },
+    {
+      "time": "09:56:14",
+      "title": "鎌倉物語",
+      "artist": "サザンオールスターズ"
+    },
+    {
+      "time": "09:59:59",
+      "title": "タッチ",
+      "artist": "岩崎良美"
+    },
+    {
+      "time": "10:04:32",
+      "title": "翼の折れたエンジェル",
+      "artist": "中村あゆみ"
+    },
+    {
+      "time": "10:08:50",
+      "title": "木枯しに抱かれて",
+      "artist": "小泉今日子"
+    },
+    {
+      "time": "10:12:24",
+      "title": "DESIRE -情熱-",
+      "artist": "中森明菜"
+    },
+    {
+      "time": "10:16:40",
+      "title": "夏の終りのハーモニー",
+      "artist": "井上陽水・安全地帯"
+    },
+    {
+      "time": "10:21:50",
+      "title": "悲しい気持ち (JUST A MAN IN LOVE)",
+      "artist": "桑田佳祐"
+    },
+    {
+      "time": "10:25:33",
+      "title": "SHOW ME",
+      "artist": "森川由加里"
+    },
+    {
+      "time": "10:29:20",
+      "title": "M",
+      "artist": "Princess Princess"
+    },
+    {
+      "time": "10:33:44",
+      "title": "愛が止まらない 〜Turn It Into Love〜",
+      "artist": "Wink"
+    },
+    {
+      "time": "10:37:00",
+      "title": "未来予想図ＩＩ",
+      "artist": "DREAMS COME TRUE"
+    },
+    {
+      "time": "10:44:10",
+      "title": "瞳がほほえむから",
+      "artist": "今井美樹"
+    },
+    {
+      "time": "10:49:19",
+      "title": "Diamonds",
+      "artist": "Princess Princess"
+    },
+    {
+      "time": "10:54:01",
+      "title": "少年時代",
+      "artist": "井上陽水"
+    },
+    {
+      "time": "10:57:11",
+      "title": "雨",
+      "artist": "森高千里"
+    },
+    {
+      "time": "11:02:01",
+      "title": "真夏の果実",
+      "artist": "サザンオールスターズ"
+    },
+    {
+      "time": "11:07:58",
+      "title": "ラブ・ストーリーは突然に",
+      "artist": "小田和正"
+    },
+    {
+      "time": "11:12:32",
+      "title": "あなたに会えてよかった",
+      "artist": "小泉今日子"
+    },
+    {
+      "time": "11:16:30",
+      "title": "サヨナラ",
+      "artist": "GAO"
+    },
+    {
+      "time": "11:20:08",
+      "title": "遠く遠く",
+      "artist": "槇原敬之"
+    },
+    {
+      "time": "11:25:34",
+      "title": "部屋とYシャツと私",
+      "artist": "平松愛理"
+    },
+    {
+      "time": "11:30:34",
+      "title": "このまま君だけを奪い去りたい",
+      "artist": "DEEN"
+    },
+    {
+      "time": "11:35:04",
+      "title": "君が思い出になる前に",
+      "artist": "スピッツ"
+    },
+    {
+      "time": "11:39:57",
+      "title": "真夏の夜の夢",
+      "artist": "松任谷由実"
+    },
+    {
+      "time": "11:44:40",
+      "title": "空と君のあいだに",
+      "artist": "中島みゆき"
+    },
+    {
+      "time": "11:50:37",
+      "title": "世界が終るまでは・・・",
+      "artist": "WANDS"
+    },
+    {
+      "time": "11:55:45",
+      "title": "空も飛べるはず",
+      "artist": "スピッツ"
+    },
+    {
+      "time": "12:00:27",
+      "title": "夢見る少女じゃいられない",
+      "artist": "相川七瀬"
+    },
+    {
+      "time": "12:04:38",
+      "title": "KNOCKIN' ON YOUR DOOR",
+      "artist": "L⇔R"
+    },
+    {
+      "time": "12:09:02",
+      "title": "田園",
+      "artist": "玉置浩二"
+    },
+    {
+      "time": "12:12:33",
+      "title": "PRIDE",
+      "artist": "今井美樹"
+    },
+    {
+      "time": "12:18:26",
+      "title": "愛の言霊 〜Spiritual Message〜",
+      "artist": "サザンオールスターズ"
+    },
+    {
+      "time": "12:23:49",
+      "title": "渚にまつわるエトセトラ",
+      "artist": "PUFFY"
+    },
+    {
+      "time": "12:28:31",
+      "title": "ひだまりの詩",
+      "artist": "Le Couple"
+    },
+    {
+      "time": "12:32:27",
+      "title": "明日、春が来たら",
+      "artist": "松たか子"
+    },
+    {
+      "time": "12:37:06",
+      "title": "つつみ込むように...",
+      "artist": "MISIA"
+    },
+    {
+      "time": "12:42:32",
+      "title": "長い間",
+      "artist": "Kiroro"
+    },
+    {
+      "time": "12:47:58",
+      "title": "time will tell ",
+      "artist": "宇多田ヒカル"
+    },
+    {
+      "time": "12:53:09",
+      "title": "朝がまた来る",
+      "artist": "DREAMS COME TRUE"
+    },
+    {
+      "time": "12:57:12",
+      "title": "カブトムシ",
+      "artist": "aiko"
+    },
+    {
+      "time": "13:02:15",
+      "title": "Love, Day After Tomorrow",
+      "artist": "倉木麻衣"
+    },
+    {
+      "time": "13:07:33",
+      "title": "Last Smile",
+      "artist": "LOVE PSYCHEDELICO"
+    },
+    {
+      "time": "13:13:08",
+      "title": "SEASONS",
+      "artist": "浜崎あゆみ"
+    },
+    {
+      "time": "13:17:11",
+      "title": "Everything",
+      "artist": "MISIA"
+    },
+    {
+      "time": "13:21:36",
+      "title": "secret base 〜君がくれたもの〜",
+      "artist": "ZONE"
+    },
+    {
+      "time": "13:27:16",
+      "title": "深い森",
+      "artist": "Do As Infinity"
+    },
+    {
+      "time": "13:31:10",
+      "title": "Fragile",
+      "artist": "Every Little Thing"
+    },
+    {
+      "time": "13:35:49",
+      "title": "風になる",
+      "artist": "つじあやの"
+    },
+    {
+      "time": "13:40:19",
+      "title": "Life goes on",
+      "artist": "Dragon Ash"
+    },
+    {
+      "time": "13:46:45",
+      "title": "風",
+      "artist": "コブクロ"
+    },
+    {
+      "time": "13:51:08",
+      "title": "恋するふたり",
+      "artist": "大滝詠一"
+    },
+    {
+      "time": "13:55:23",
+      "title": "明日への扉",
+      "artist": "I WiSH"
+    },
+    {
+      "time": "14:00:08",
+      "title": "花",
+      "artist": "ORANGE RANGE"
+    },
+    {
+      "time": "14:05:40",
+      "title": "ハナミズキ",
+      "artist": "一青窈"
+    },
+    {
+      "time": "14:10:52",
+      "title": "瞳をとじて",
+      "artist": "平井堅"
+    },
+    {
+      "time": "14:16:08",
+      "title": "恋におちたら",
+      "artist": "Crystal Kay"
+    },
+    {
+      "time": "14:20:27",
+      "title": "春の歌",
+      "artist": "スピッツ"
+    },
+    {
+      "time": "14:24:54",
+      "title": "Beautiful Days",
+      "artist": "古内東子"
+    },
+    {
+      "time": "14:30:52",
+      "title": "ハートに火をつけて",
+      "artist": "ZARD"
+    },
+    {
+      "time": "14:35:45",
+      "title": "Catch The Wave",
+      "artist": "Def Tech"
+    },
+    {
+      "time": "14:40:00",
+      "title": "蕾",
+      "artist": "コブクロ"
+    },
+    {
+      "time": "14:45:50",
+      "title": "Love so sweet",
+      "artist": "嵐"
+    },
+    {
+      "time": "14:51:24",
+      "title": "Mahaloha",
+      "artist": "伊藤由奈"
+    },
+    {
+      "time": "14:55:17",
+      "title": "そばにいるね feat. SoulJa",
+      "artist": "青山テルマ"
+    },
+    {
+      "time": "15:03:28",
+      "title": "手紙〜拝啓 十五の君へ〜",
+      "artist": "アンジェラ・アキ"
+    },
+    {
+      "time": "15:08:27",
+      "title": "愛をこめて花束を",
+      "artist": "Superfly"
+    },
+    {
+      "time": "15:14:29",
+      "title": "みんな空の下",
+      "artist": "絢香"
+    },
+    {
+      "time": "15:19:06",
+      "title": "Butterfly",
+      "artist": "木村カエラ"
+    },
+    {
+      "time": "15:23:13",
+      "title": "会いたくて 会いたくて",
+      "artist": "西野カナ"
+    },
+    {
+      "time": "15:27:46",
+      "title": "ねぇ",
+      "artist": "Perfume"
+    },
+    {
+      "time": "15:32:59",
+      "title": "ありがとう",
+      "artist": "いきものがかり"
+    },
+    {
+      "time": "15:38:49",
+      "title": "フライングゲット",
+      "artist": "AKB48"
+    },
+    {
+      "time": "15:42:55",
+      "title": "家族になろうよ",
+      "artist": "福山雅治"
+    },
+    {
+      "time": "15:47:49",
+      "title": "さよならの夏 〜コクリコ坂から〜",
+      "artist": "手嶌葵"
+    },
+    {
+      "time": "15:53:57",
+      "title": "100万年の幸せ!!",
+      "artist": "桑田佳祐"
+    },
+    {
+      "time": "15:58:29",
+      "title": "Be…",
+      "artist": "Ms.OOJA"
+    },
+    {
+      "time": "16:03:13",
+      "title": "輝く月のように",
+      "artist": "Superfly"
+    },
+    {
+      "time": "16:08:29",
+      "title": "恋するフォーチュンクッキー",
+      "artist": "AKB48"
+    },
+    {
+      "time": "16:14:30",
+      "title": "線香花火 〜8月の約束〜",
+      "artist": "Sonar Pocket"
+    },
+    {
+      "time": "16:19:04",
+      "title": "トーキョー・ドライブ",
+      "artist": "土岐麻子"
+    },
+    {
+      "time": "16:22:25",
+      "title": "Dragon Night",
+      "artist": "SEKAI NO OWARI"
+    },
+    {
+      "time": "16:26:03",
+      "title": "東京VICTORY",
+      "artist": "サザンオールスターズ"
+    },
+    {
+      "time": "16:31:55",
+      "title": "にじいろ",
+      "artist": "絢香"
+    },
+    {
+      "time": "16:35:32",
+      "title": "君がくれた夏 (Piano Version)",
+      "artist": "家入レオ"
+    },
+    {
+      "time": "16:39:29",
+      "title": "愛唄〜since 2007〜",
+      "artist": "whiteeeen"
+    },
+    {
+      "time": "16:43:26",
+      "title": "Hero",
+      "artist": "安室奈美恵"
+    },
+    {
+      "time": "16:49:48",
+      "title": "CHEER UP! THE SUMMER",
+      "artist": "山下達郎"
+    },
+    {
+      "time": "16:53:55",
+      "title": "SUPER RAINBOW",
+      "artist": "MISIA"
+    },
+    {
+      "time": "17:10:24",
+      "title": "コトノハ",
+      "artist": "絢香"
+    },
+    {
+      "time": "17:14:12",
+      "title": "瞬き",
+      "artist": "back number"
+    },
+    {
+      "time": "17:19:23",
+      "title": "猫",
+      "artist": "DISH//"
+    },
+    {
+      "time": "17:23:46",
+      "title": "ブレス",
+      "artist": "ポルノグラフィティ"
+    },
+    {
+      "time": "17:28:45",
+      "title": "Lemon",
+      "artist": "米津玄師"
+    },
+    {
+      "time": "17:32:51",
+      "title": "何も言えなくて… 夏2018",
+      "artist": "JAYWALK"
+    },
+    {
+      "time": "17:36:46",
+      "title": "ハルノヒ",
+      "artist": "あいみょん"
+    },
+    {
+      "time": "17:42:01",
+      "title": "小さな夜",
+      "artist": "斉藤和義"
+    },
+    {
+      "time": "17:46:10",
+      "title": "よるのあと",
+      "artist": "adieu"
+    },
+    {
+      "time": "17:50:47",
+      "title": "虹",
+      "artist": "菅田将暉"
+    },
+    {
+      "time": "17:54:53",
+      "title": "I LOVE...",
+      "artist": "Official髭男dism"
+    },
+    {
+      "time": "17:59:24",
+      "title": "ドライフラワー",
+      "artist": "優里"
+    },
+    {
+      "time": "18:05:25",
+      "title": "踊り子",
+      "artist": "Vaundy"
+    },
+    {
+      "time": "18:09:07",
+      "title": "怪盗",
+      "artist": "back number"
+    },
+    {
+      "time": "18:12:17",
+      "title": "Ordinary days",
+      "artist": "milet"
+    },
+    {
+      "time": "18:16:40",
+      "title": "クロノスタシス",
+      "artist": "BUMP OF CHICKEN"
+    },
+    {
+      "time": "18:22:10",
+      "title": "Lost",
+      "artist": "yama"
+    },
+    {
+      "time": "18:26:02",
+      "title": "オアイコ",
+      "artist": "Aimer"
+    },
+    {
+      "time": "18:29:47",
+      "title": "歌えニッポンの空",
+      "artist": "サザンオールスターズ"
+    },
+    {
+      "time": "18:33:50",
+      "title": "花",
+      "artist": "藤井風"
+    },
+    {
+      "time": "18:37:51",
+      "title": "晩餐歌",
+      "artist": "tuki."
+    },
+    {
+      "time": "18:41:23",
+      "title": "会いに行くのに",
+      "artist": "あいみょん"
+    },
+    {
+      "time": "18:46:26",
+      "title": "Bling‐Bang‐Bang‐Born",
+      "artist": "Creepy Nuts"
+    },
+    {
+      "time": "18:49:11",
+      "title": "本日のおすすめ",
+      "artist": "離婚伝説"
+    },
+    {
+      "time": "18:51:53",
+      "title": "Run Wild",
+      "artist": "&TEAM"
+    },
+    {
+      "time": "18:54:20",
+      "title": "Carrying Happiness",
+      "artist": "Mrs. GREEN APPLE"
+    }
+  ]
+}

@@ -1,0 +1,771 @@
+{
+  "date": "2025-12-09",
+  "fetchedAt": "2026-10-10T11:28:05.658Z",
+  "plays": [
+    {
+      "time": "08:30:14",
+      "title": "冬のファンタジー",
+      "artist": "カズン"
+    },
+    {
+      "time": "08:35:01",
+      "title": "Separate Ways (Worlds Apart)",
+      "artist": "Journey"
+    },
+    {
+      "time": "08:39:22",
+      "title": "Secret",
+      "artist": "ナオト・インティライミ"
+    },
+    {
+      "time": "08:41:58",
+      "title": "Love Never Felt So Good feat. Justin Timberlake",
+      "artist": "Michael Jackson"
+    },
+    {
+      "time": "08:45:55",
+      "title": "マヨイガ",
+      "artist": "羊文学"
+    },
+    {
+      "time": "08:50:58",
+      "title": "Outsiders",
+      "artist": "Against The Current"
+    },
+    {
+      "time": "08:54:38",
+      "title": "True",
+      "artist": "Spandau Ballet"
+    },
+    {
+      "time": "09:00:15",
+      "title": "Change the World",
+      "artist": "Eric Clapton"
+    },
+    {
+      "time": "09:04:01",
+      "title": "心に穴が空いた",
+      "artist": "ヨルシカ"
+    },
+    {
+      "time": "09:09:31",
+      "title": "DAISIES",
+      "artist": "Justin Bieber"
+    },
+    {
+      "time": "09:12:24",
+      "title": "Tomorrow never knows",
+      "artist": "Mr.Children"
+    },
+    {
+      "time": "09:17:20",
+      "title": "Thank You",
+      "artist": "Dido"
+    },
+    {
+      "time": "09:20:50",
+      "title": "Nothing But the Radio On",
+      "artist": "Dave Koz"
+    },
+    {
+      "time": "09:25:03",
+      "title": "X's feat. Icona Pop",
+      "artist": "CMC$ & GRX"
+    },
+    {
+      "time": "09:29:27",
+      "title": "reunion",
+      "artist": "back number×秦基博×小林武史"
+    },
+    {
+      "time": "09:34:43",
+      "title": "TRAINWRECK",
+      "artist": "Anne-Marie"
+    },
+    {
+      "time": "09:37:44",
+      "title": "優しい彗星",
+      "artist": "YOASOBI"
+    },
+    {
+      "time": "09:41:13",
+      "title": "Always",
+      "artist": "Pebbles"
+    },
+    {
+      "time": "09:46:26",
+      "title": "Just Keep Watching",
+      "artist": "Tate McRae"
+    },
+    {
+      "time": "09:49:38",
+      "title": "Money, Love & Death",
+      "artist": "Garrett Nash"
+    },
+    {
+      "time": "09:52:17",
+      "title": "I",
+      "artist": "BUMP OF CHICKEN"
+    },
+    {
+      "time": "09:56:19",
+      "title": "The Christmas Song",
+      "artist": "Celine Dion"
+    },
+    {
+      "time": "10:00:26",
+      "title": "I've Been in Love Before",
+      "artist": "Cutting Crew"
+    },
+    {
+      "time": "10:05:34",
+      "title": "Xanadu",
+      "artist": "Olivia Newton-John & Electric Light Orchestra"
+    },
+    {
+      "time": "10:10:07",
+      "title": "Sally, When The Wine Runs Out",
+      "artist": "ROLE MODEL"
+    },
+    {
+      "time": "10:13:39",
+      "title": "どんなときも。",
+      "artist": "井上苑子"
+    },
+    {
+      "time": "10:17:54",
+      "title": "Somewhere Out There with James Ingram",
+      "artist": "Linda Ronstadt"
+    },
+    {
+      "time": "10:21:46",
+      "title": "Hold Me Closer",
+      "artist": "Elton John & Britney Spears"
+    },
+    {
+      "time": "10:25:00",
+      "title": "飾りじゃないのよ涙は",
+      "artist": "中森明菜"
+    },
+    {
+      "time": "10:29:57",
+      "title": "Only You",
+      "artist": "MAZZEL"
+    },
+    {
+      "time": "10:33:49",
+      "title": "Love on Layaway",
+      "artist": "Gloria Estefan"
+    },
+    {
+      "time": "10:38:06",
+      "title": "プロローグ",
+      "artist": "Uru"
+    },
+    {
+      "time": "10:42:52",
+      "title": "Love Myself",
+      "artist": "Hailee Steinfeld"
+    },
+    {
+      "time": "10:46:25",
+      "title": "Don't Say You Love Me",
+      "artist": "JIN"
+    },
+    {
+      "time": "10:50:11",
+      "title": "ビーナスベルト",
+      "artist": "あいみょん"
+    },
+    {
+      "time": "10:55:29",
+      "title": "Break Free feat. Zedd",
+      "artist": "Ariana Grande"
+    },
+    {
+      "time": "10:58:59",
+      "title": "いつのまに",
+      "artist": "DREAMS COME TRUE"
+    },
+    {
+      "time": "11:02:17",
+      "title": "By Your Side feat. RAYE",
+      "artist": "Jonas Blue"
+    },
+    {
+      "time": "11:05:31",
+      "title": "あの日のメリークリスマス",
+      "artist": "嵐"
+    },
+    {
+      "time": "11:10:55",
+      "title": "灯を護る",
+      "artist": "スピッツ"
+    },
+    {
+      "time": "11:14:22",
+      "title": "Mercy Mercy Me",
+      "artist": "Robert Palmer"
+    },
+    {
+      "time": "11:20:02",
+      "title": "Gravity",
+      "artist": "Omoinotake"
+    },
+    {
+      "time": "11:24:18",
+      "title": "OK Not To Be OK",
+      "artist": "Marshmello & Demi Lovato"
+    },
+    {
+      "time": "11:26:55",
+      "title": "Hooray! Hooray! It's a Holi-Holiday",
+      "artist": "Boney M."
+    },
+    {
+      "time": "11:30:55",
+      "title": "平行線",
+      "artist": "Eve × suis from ヨルシカ"
+    },
+    {
+      "time": "11:35:27",
+      "title": "Telepath",
+      "artist": "Conan Gray"
+    },
+    {
+      "time": "11:38:36",
+      "title": "ALL I CAN TAKE",
+      "artist": "Justin Bieber"
+    },
+    {
+      "time": "11:42:37",
+      "title": "DIGNITY",
+      "artist": "Ado"
+    },
+    {
+      "time": "11:46:39",
+      "title": "Can't Wait 'Til Christmas",
+      "artist": "宇多田ヒカル"
+    },
+    {
+      "time": "11:51:05",
+      "title": "Small world",
+      "artist": "BUMP OF CHICKEN"
+    },
+    {
+      "time": "11:56:14",
+      "title": "Story of My Life",
+      "artist": "One Direction"
+    },
+    {
+      "time": "12:00:14",
+      "title": "Voyage",
+      "artist": "幾田りら"
+    },
+    {
+      "time": "12:03:48",
+      "title": "The Girl Is Mine",
+      "artist": "Michael Jackson & Paul McCartney"
+    },
+    {
+      "time": "12:08:34",
+      "title": "躍りゃんせ",
+      "artist": "DISH//"
+    },
+    {
+      "time": "12:12:13",
+      "title": "Love Me To Heaven",
+      "artist": "Jonas Brothers"
+    },
+    {
+      "time": "12:15:33",
+      "title": "書きかけの未来",
+      "artist": "Little Glee Monster"
+    },
+    {
+      "time": "12:20:15",
+      "title": "Humbug",
+      "artist": "Owl City"
+    },
+    {
+      "time": "12:24:32",
+      "title": "Secret Garden",
+      "artist": "BE:FIRST"
+    },
+    {
+      "time": "12:28:37",
+      "title": "手紙",
+      "artist": "back number"
+    },
+    {
+      "time": "12:32:58",
+      "title": "Orinoco Flow",
+      "artist": "Enya"
+    },
+    {
+      "time": "12:37:18",
+      "title": "フレンズ",
+      "artist": "レベッカ"
+    },
+    {
+      "time": "12:41:35",
+      "title": "Locked Away feat. Adam Levine",
+      "artist": "R. City"
+    },
+    {
+      "time": "12:45:17",
+      "title": "エンドロール",
+      "artist": "SEKAI NO OWARI"
+    },
+    {
+      "time": "12:49:00",
+      "title": "夜明けをくちずさめたら",
+      "artist": "上白石萌音"
+    },
+    {
+      "time": "12:53:36",
+      "title": "Let Me Love You",
+      "artist": "Amber Mark"
+    },
+    {
+      "time": "12:57:04",
+      "title": "Winter Bells",
+      "artist": "倉木麻衣"
+    },
+    {
+      "time": "13:01:32",
+      "title": "Woman",
+      "artist": "中西圭三"
+    },
+    {
+      "time": "13:06:08",
+      "title": "Let Me Move You",
+      "artist": "Sabrina Carpenter"
+    },
+    {
+      "time": "13:09:40",
+      "title": "My Answer",
+      "artist": "緑黄色社会"
+    },
+    {
+      "time": "13:13:04",
+      "title": "Skylight",
+      "artist": "Gabrielle Aplin"
+    },
+    {
+      "time": "13:16:49",
+      "title": "Heartful Voice",
+      "artist": "タッキー&翼"
+    },
+    {
+      "time": "13:21:26",
+      "title": "All Night",
+      "artist": "Maroon 5"
+    },
+    {
+      "time": "13:24:04",
+      "title": "よるのあと",
+      "artist": "adieu"
+    },
+    {
+      "time": "13:29:37",
+      "title": "ハッピークリスマス",
+      "artist": "AI"
+    },
+    {
+      "time": "13:34:50",
+      "title": "This Time I Know It's For Real ",
+      "artist": "Donna Summer"
+    },
+    {
+      "time": "13:38:13",
+      "title": "ヘビーメロウ",
+      "artist": "スピッツ"
+    },
+    {
+      "time": "13:41:37",
+      "title": "Sexual Healing",
+      "artist": "Marvin Gaye"
+    },
+    {
+      "time": "13:45:27",
+      "title": "Your Blood",
+      "artist": "AURORA"
+    },
+    {
+      "time": "13:50:20",
+      "title": "The Fate of Ophelia",
+      "artist": "Taylor Swift"
+    },
+    {
+      "time": "13:54:01",
+      "title": "四季",
+      "artist": "クリープハイプ"
+    },
+    {
+      "time": "13:57:19",
+      "title": "Scatman (Ski Ba Bop Ba Dop Bop)",
+      "artist": "Scatman John"
+    },
+    {
+      "time": "14:00:38",
+      "title": "Stand By You",
+      "artist": "Official髭男dism"
+    },
+    {
+      "time": "14:04:39",
+      "title": "Can You Keep A Secret?",
+      "artist": "宇多田ヒカル"
+    },
+    {
+      "time": "14:10:46",
+      "title": "Zombie Lady",
+      "artist": "Damiano David"
+    },
+    {
+      "time": "14:13:49",
+      "title": "How do you feel now?",
+      "artist": "安室奈美恵"
+    },
+    {
+      "time": "14:17:32",
+      "title": "More than This",
+      "artist": "Roxy Music"
+    },
+    {
+      "time": "14:21:37",
+      "title": "CUBE",
+      "artist": "iri"
+    },
+    {
+      "time": "14:24:54",
+      "title": "So Much in Love",
+      "artist": "Timothy B. Schmit"
+    },
+    {
+      "time": "14:27:02",
+      "title": "Xmas Santa",
+      "artist": "絢香"
+    },
+    {
+      "time": "14:31:46",
+      "title": "1991",
+      "artist": "米津玄師"
+    },
+    {
+      "time": "14:35:24",
+      "title": "New York City",
+      "artist": "Owl City"
+    },
+    {
+      "time": "14:38:58",
+      "title": "ずっと一緒さ",
+      "artist": "山下達郎"
+    },
+    {
+      "time": "14:43:42",
+      "title": "A Little More",
+      "artist": "Ed Sheeran"
+    },
+    {
+      "time": "14:46:50",
+      "title": "声",
+      "artist": "羊文学"
+    },
+    {
+      "time": "14:51:59",
+      "title": "Don't Talk To Strangers",
+      "artist": "Rick Springfield"
+    },
+    {
+      "time": "14:54:41",
+      "title": "いきどまり",
+      "artist": "星野源"
+    },
+    {
+      "time": "14:57:24",
+      "title": "I'll Be",
+      "artist": "Celine Dion"
+    },
+    {
+      "time": "15:03:14",
+      "title": "Royal Energy",
+      "artist": "ME:I"
+    },
+    {
+      "time": "15:06:00",
+      "title": "We Are Young feat. Janelle Monae",
+      "artist": "Fun."
+    },
+    {
+      "time": "15:11:15",
+      "title": "クリスマスイブニング",
+      "artist": "Little Glee Monster"
+    },
+    {
+      "time": "15:15:00",
+      "title": "Everyday Is A Winding Road",
+      "artist": "Sheryl Crow"
+    },
+    {
+      "time": "15:19:02",
+      "title": "クリスマスキャロルの頃には",
+      "artist": "稲垣潤一"
+    },
+    {
+      "time": "15:23:23",
+      "title": "かさぶた",
+      "artist": "上白石萌音"
+    },
+    {
+      "time": "15:27:07",
+      "title": "I Had Some Help feat. Morgan Wallen",
+      "artist": "Post Malone"
+    },
+    {
+      "time": "15:30:53",
+      "title": "たましいの居場所",
+      "artist": "マカロニえんぴつ"
+    },
+    {
+      "time": "15:33:56",
+      "title": "It's Not Living (If It's Not With You)",
+      "artist": "The 1975"
+    },
+    {
+      "time": "15:37:55",
+      "title": "劇上",
+      "artist": "YOASOBI"
+    },
+    {
+      "time": "15:41:10",
+      "title": "Who's Crying Now",
+      "artist": "Journey"
+    },
+    {
+      "time": "15:45:52",
+      "title": "Bones feat. OneRepublic",
+      "artist": "Galantis"
+    },
+    {
+      "time": "15:50:08",
+      "title": "ビリーヴ",
+      "artist": "GReeeeN"
+    },
+    {
+      "time": "15:54:53",
+      "title": "Zoo",
+      "artist": "Shakira"
+    },
+    {
+      "time": "15:57:59",
+      "title": "タラレバ",
+      "artist": "MACO"
+    },
+    {
+      "time": "16:02:46",
+      "title": "ラブ・ストーリーは突然に",
+      "artist": "小田和正"
+    },
+    {
+      "time": "16:07:21",
+      "title": "I Saw Mommy Kissing Santa Claus",
+      "artist": "The Jackson 5"
+    },
+    {
+      "time": "16:11:22",
+      "title": "Lady Lady",
+      "artist": "Olivia Dean"
+    },
+    {
+      "time": "16:14:46",
+      "title": "TRUE LOVE",
+      "artist": "藤井フミヤ"
+    },
+    {
+      "time": "16:18:27",
+      "title": "Told You So",
+      "artist": "Little Mix"
+    },
+    {
+      "time": "16:21:34",
+      "title": "らしさ",
+      "artist": "Official髭男dism"
+    },
+    {
+      "time": "16:26:31",
+      "title": "Christmas Wish",
+      "artist": "安室奈美恵"
+    },
+    {
+      "time": "16:31:18",
+      "title": "Be on Your side",
+      "artist": "to HEROes"
+    },
+    {
+      "time": "16:34:47",
+      "title": "I Get High",
+      "artist": "Tones and I"
+    },
+    {
+      "time": "16:39:00",
+      "title": "永遠に",
+      "artist": "ゴスペラーズ"
+    },
+    {
+      "time": "16:44:27",
+      "title": "2002",
+      "artist": "Anne-Marie"
+    },
+    {
+      "time": "16:47:29",
+      "title": "踊り子",
+      "artist": "Vaundy"
+    },
+    {
+      "time": "16:52:05",
+      "title": "Strong Enough feat. Bailey Zimmerman",
+      "artist": "Jonas Brothers"
+    },
+    {
+      "time": "16:54:29",
+      "title": "もらい泣き",
+      "artist": "一青窈"
+    },
+    {
+      "time": "17:10:14",
+      "title": "GOOD DAY",
+      "artist": "Mrs. GREEN APPLE"
+    },
+    {
+      "time": "17:14:26",
+      "title": "Anytime",
+      "artist": "The Jets"
+    },
+    {
+      "time": "17:18:04",
+      "title": "SLEEPWALK",
+      "artist": "ヒトリエ"
+    },
+    {
+      "time": "17:22:03",
+      "title": "The Mood",
+      "artist": "FLO & KAYTRANADA"
+    },
+    {
+      "time": "17:24:46",
+      "title": "Farewell",
+      "artist": "Superfly"
+    },
+    {
+      "time": "17:29:43",
+      "title": "Progress",
+      "artist": "kokua"
+    },
+    {
+      "time": "17:35:16",
+      "title": "Standing Next to You",
+      "artist": "Jung Kook"
+    },
+    {
+      "time": "17:38:34",
+      "title": "クリスマス・イブ",
+      "artist": "CHEMISTRY"
+    },
+    {
+      "time": "17:42:44",
+      "title": "No Scrubs",
+      "artist": "TLC"
+    },
+    {
+      "time": "17:46:07",
+      "title": "My Landscape",
+      "artist": "BiSH"
+    },
+    {
+      "time": "17:51:35",
+      "title": "Fallin' For You",
+      "artist": "Colbie Caillat"
+    },
+    {
+      "time": "17:55:03",
+      "title": "Prema",
+      "artist": "藤井風"
+    },
+    {
+      "time": "18:00:32",
+      "title": "Stellar Days",
+      "artist": "秦基博"
+    },
+    {
+      "time": "18:04:27",
+      "title": "Say It Isn't So",
+      "artist": "Daryl Hall & John Oates"
+    },
+    {
+      "time": "18:08:16",
+      "title": "風と私の物語",
+      "artist": "Ado"
+    },
+    {
+      "time": "18:13:58",
+      "title": "Everything Goes On",
+      "artist": "League of Legends & Porter Robinson"
+    },
+    {
+      "time": "18:17:14",
+      "title": "Best Of My Love",
+      "artist": "ASWAD"
+    },
+    {
+      "time": "18:20:59",
+      "title": "コイワズライ",
+      "artist": "Aimer"
+    },
+    {
+      "time": "18:24:47",
+      "title": "I Believe in You",
+      "artist": "Michael Buble"
+    },
+    {
+      "time": "18:28:00",
+      "title": "ダンシング・ヒーロー (Eat You Up)",
+      "artist": "荻野目洋子"
+    },
+    {
+      "time": "18:31:54",
+      "title": "Gameboy",
+      "artist": "KATSEYE"
+    },
+    {
+      "time": "18:34:55",
+      "title": "Stardom",
+      "artist": "King Gnu"
+    },
+    {
+      "time": "18:38:29",
+      "title": "You Deserve It All ",
+      "artist": "John Legend"
+    },
+    {
+      "time": "18:41:36",
+      "title": "doku",
+      "artist": "yama"
+    },
+    {
+      "time": "18:44:28",
+      "title": "ミス・ブランニュー・デイ",
+      "artist": "サザンオールスターズ"
+    },
+    {
+      "time": "18:49:03",
+      "title": "Count On Me",
+      "artist": "Bruno Mars"
+    },
+    {
+      "time": "18:52:12",
+      "title": "WITH YOU",
+      "artist": "JUJU"
+    }
+  ]
+}

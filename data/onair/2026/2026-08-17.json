@@ -1,0 +1,831 @@
+{
+  "date": "2026-08-17",
+  "fetchedAt": "2026-10-10T11:36:45.115Z",
+  "plays": [
+    {
+      "time": "08:01:14",
+      "title": "HIGH PRESSURE",
+      "artist": "T.M.Revolution"
+    },
+    {
+      "time": "08:05:30",
+      "title": "Miss Chatelaine",
+      "artist": "k.d. lang"
+    },
+    {
+      "time": "08:10:22",
+      "title": "飛ぶ時",
+      "artist": "Vaundy"
+    },
+    {
+      "time": "08:14:29",
+      "title": "Big Girls Don't Cry (Personal)",
+      "artist": "Fergie"
+    },
+    {
+      "time": "08:18:50",
+      "title": "Best Friend",
+      "artist": "Kiroro"
+    },
+    {
+      "time": "08:23:22",
+      "title": "Two Hearts",
+      "artist": "Danny L Harle & Dua Lipa"
+    },
+    {
+      "time": "08:27:12",
+      "title": "I'm here saying nothing",
+      "artist": "矢井田瞳"
+    },
+    {
+      "time": "08:30:33",
+      "title": "Eden",
+      "artist": "Avalon Emerson"
+    },
+    {
+      "time": "08:34:37",
+      "title": "SING!",
+      "artist": "いきものがかり"
+    },
+    {
+      "time": "08:39:50",
+      "title": "Amazing",
+      "artist": "FOXES"
+    },
+    {
+      "time": "08:43:29",
+      "title": "You Might Think",
+      "artist": "The Cars"
+    },
+    {
+      "time": "08:46:29",
+      "title": "シーズン・イン・ザ・サン",
+      "artist": "TUBE"
+    },
+    {
+      "time": "08:50:16",
+      "title": "SS26",
+      "artist": "Charli xcx"
+    },
+    {
+      "time": "08:52:59",
+      "title": "遺書",
+      "artist": "キタニタツヤ"
+    },
+    {
+      "time": "08:56:00",
+      "title": "Sussudio",
+      "artist": "Phil Collins"
+    },
+    {
+      "time": "09:00:15",
+      "title": "Sunny",
+      "artist": "上白石萌音"
+    },
+    {
+      "time": "09:04:04",
+      "title": "When I Look Into Your Eyes",
+      "artist": "FireHouse"
+    },
+    {
+      "time": "09:09:12",
+      "title": "Shape of a Woman",
+      "artist": "Lady Gaga"
+    },
+    {
+      "time": "09:12:35",
+      "title": "スカーレット",
+      "artist": "スピッツ"
+    },
+    {
+      "time": "09:15:58",
+      "title": "Soak Up The Sun",
+      "artist": "Sheryl Crow"
+    },
+    {
+      "time": "09:20:42",
+      "title": "Feels So Good",
+      "artist": "Van Halen"
+    },
+    {
+      "time": "09:24:56",
+      "title": "アイコトバ",
+      "artist": "DISH//"
+    },
+    {
+      "time": "09:28:57",
+      "title": "EGG",
+      "artist": "木村カエラ"
+    },
+    {
+      "time": "09:33:35",
+      "title": "Broken & Beautiful ",
+      "artist": "Kelly Clarkson"
+    },
+    {
+      "time": "09:37:07",
+      "title": "君たちキウイ・パパイア・マンゴーだね。",
+      "artist": "中原めいこ"
+    },
+    {
+      "time": "09:40:14",
+      "title": "When",
+      "artist": "Shania Twain"
+    },
+    {
+      "time": "09:43:49",
+      "title": "IDENTITY",
+      "artist": "東方神起"
+    },
+    {
+      "time": "09:49:01",
+      "title": "Take Your Love",
+      "artist": "Olly Murs"
+    },
+    {
+      "time": "09:52:29",
+      "title": "好き",
+      "artist": "星野源"
+    },
+    {
+      "time": "09:56:12",
+      "title": "drop dead",
+      "artist": "Olivia Rodrigo"
+    },
+    {
+      "time": "09:59:52",
+      "title": "Runaway Train",
+      "artist": "Soul Asylum"
+    },
+    {
+      "time": "10:04:01",
+      "title": "シリウス",
+      "artist": "BUMP OF CHICKEN"
+    },
+    {
+      "time": "10:09:24",
+      "title": "Bring Your Love",
+      "artist": "Madonna & Sabrina Carpenter"
+    },
+    {
+      "time": "10:12:56",
+      "title": "真夏の果実",
+      "artist": "サザンオールスターズ"
+    },
+    {
+      "time": "10:17:25",
+      "title": "Night Birds",
+      "artist": "Shakatak"
+    },
+    {
+      "time": "10:21:36",
+      "title": "Light On",
+      "artist": "Maggie Rogers"
+    },
+    {
+      "time": "10:25:25",
+      "title": "ルージュの伝言",
+      "artist": "荒井由実"
+    },
+    {
+      "time": "10:29:10",
+      "title": "島人ぬ宝",
+      "artist": "BEGIN"
+    },
+    {
+      "time": "10:34:17",
+      "title": "iloveitiloveitiloveit",
+      "artist": "Bella Kay"
+    },
+    {
+      "time": "10:37:16",
+      "title": "世界の秘密",
+      "artist": "Vaundy"
+    },
+    {
+      "time": "10:40:51",
+      "title": "Say So",
+      "artist": "Doja Cat"
+    },
+    {
+      "time": "10:44:42",
+      "title": "Home feat. Hikaru Utada",
+      "artist": "Charlie Puth"
+    },
+    {
+      "time": "10:49:15",
+      "title": "火種",
+      "artist": "キタニタツヤ"
+    },
+    {
+      "time": "10:52:34",
+      "title": "Everybody's Gonna Love Somebody ",
+      "artist": "Alfie Templeman"
+    },
+    {
+      "time": "10:56:22",
+      "title": "人魚",
+      "artist": "NOKKO"
+    },
+    {
+      "time": "10:59:46",
+      "title": "never mind, let's break up",
+      "artist": "LANY"
+    },
+    {
+      "time": "11:02:23",
+      "title": "一瞬",
+      "artist": "Bialystocks"
+    },
+    {
+      "time": "11:05:40",
+      "title": "On My Soul",
+      "artist": "Bruno Mars"
+    },
+    {
+      "time": "11:09:40",
+      "title": "うるさ",
+      "artist": "Ayase"
+    },
+    {
+      "time": "11:12:49",
+      "title": "Bette Davis Eyes",
+      "artist": "Kim Carnes"
+    },
+    {
+      "time": "11:16:18",
+      "title": "Everything",
+      "artist": "MISIA"
+    },
+    {
+      "time": "11:20:43",
+      "title": "Disaster",
+      "artist": "Conan Gray"
+    },
+    {
+      "time": "11:23:10",
+      "title": "Everything She Wants",
+      "artist": "Wham!"
+    },
+    {
+      "time": "11:29:25",
+      "title": "打上花火",
+      "artist": "DAOKO×米津玄師"
+    },
+    {
+      "time": "11:34:01",
+      "title": "Counting Stars",
+      "artist": "OneRepublic"
+    },
+    {
+      "time": "11:38:12",
+      "title": "Material Lover",
+      "artist": "Sienna Spiro"
+    },
+    {
+      "time": "11:41:05",
+      "title": "金木犀の夜",
+      "artist": "きのこ帝国"
+    },
+    {
+      "time": "11:44:59",
+      "title": "Never Really Over",
+      "artist": "Katy Perry"
+    },
+    {
+      "time": "11:49:31",
+      "title": "もう少しだけ",
+      "artist": "YOASOBI"
+    },
+    {
+      "time": "11:53:06",
+      "title": "Lollipop",
+      "artist": "MIKA"
+    },
+    {
+      "time": "11:56:04",
+      "title": "Rain",
+      "artist": "秦基博"
+    },
+    {
+      "time": "12:00:15",
+      "title": "陽炎",
+      "artist": "indigo la End"
+    },
+    {
+      "time": "12:04:09",
+      "title": "Dreamlover",
+      "artist": "Mariah Carey"
+    },
+    {
+      "time": "12:09:09",
+      "title": "Good-bye My Loneliness",
+      "artist": "ZARD"
+    },
+    {
+      "time": "12:13:31",
+      "title": "On My Way",
+      "artist": "Alan Walker, Sabrina Carpenter & Farruko"
+    },
+    {
+      "time": "12:16:42",
+      "title": "イチブトゼンブ",
+      "artist": "B'z"
+    },
+    {
+      "time": "12:20:45",
+      "title": "Golden",
+      "artist": "HUNTR/X"
+    },
+    {
+      "time": "12:23:54",
+      "title": "老人と海",
+      "artist": "ヨルシカ"
+    },
+    {
+      "time": "12:28:58",
+      "title": "少年時代",
+      "artist": "井上陽水"
+    },
+    {
+      "time": "12:32:08",
+      "title": "Don't Go Breaking My Heart",
+      "artist": "Elton John & Kiki Dee"
+    },
+    {
+      "time": "12:36:18",
+      "title": "純愛ラプソディ",
+      "artist": "竹内まりや"
+    },
+    {
+      "time": "12:40:48",
+      "title": "Dancing In The Flames",
+      "artist": "The Weeknd"
+    },
+    {
+      "time": "12:44:21",
+      "title": "パッパパラダイス",
+      "artist": "宇多田ヒカル"
+    },
+    {
+      "time": "12:48:57",
+      "title": "夏の思い出",
+      "artist": "ケツメイシ"
+    },
+    {
+      "time": "12:55:11",
+      "title": "Save My Love",
+      "artist": "Kygo, Khalid & Gryffin"
+    },
+    {
+      "time": "12:58:37",
+      "title": "Update ME",
+      "artist": "ME:I"
+    },
+    {
+      "time": "13:01:39",
+      "title": "HERO（ヒーローになる時、それは今）",
+      "artist": "甲斐バンド"
+    },
+    {
+      "time": "13:05:12",
+      "title": "Dancing",
+      "artist": "Kylie Minogue"
+    },
+    {
+      "time": "13:09:17",
+      "title": "Brand New",
+      "artist": "Mrs. GREEN APPLE"
+    },
+    {
+      "time": "13:12:42",
+      "title": "Rise feat. Jack & Jack",
+      "artist": "Jonas Blue"
+    },
+    {
+      "time": "13:15:47",
+      "title": "悲しい気持ち (JUST A MAN IN LOVE)",
+      "artist": "桑田佳祐"
+    },
+    {
+      "time": "13:19:30",
+      "title": "Love Sensation",
+      "artist": "Madonna"
+    },
+    {
+      "time": "13:23:15",
+      "title": "アルカセ",
+      "artist": "ユニコーン"
+    },
+    {
+      "time": "13:29:05",
+      "title": "MAGIC MUSIC",
+      "artist": "Ryosuke Yamada"
+    },
+    {
+      "time": "13:32:15",
+      "title": "The Look",
+      "artist": "Roxette"
+    },
+    {
+      "time": "13:35:59",
+      "title": "夏色",
+      "artist": "ゆず"
+    },
+    {
+      "time": "13:39:12",
+      "title": "Hold On Tight",
+      "artist": "Electric Light Orchestra"
+    },
+    {
+      "time": "13:42:14",
+      "title": "Graveyard",
+      "artist": "Halsey"
+    },
+    {
+      "time": "13:45:12",
+      "title": "Light Switch",
+      "artist": "Charlie Puth"
+    },
+    {
+      "time": "13:49:07",
+      "title": "I knew it, I knew you",
+      "artist": "Taylor Swift"
+    },
+    {
+      "time": "13:51:59",
+      "title": "Wake Me Up",
+      "artist": "TWICE"
+    },
+    {
+      "time": "13:55:26",
+      "title": "Hold Me Now",
+      "artist": "Thompson Twins"
+    },
+    {
+      "time": "14:00:00",
+      "title": "Everyday、カチューシャ",
+      "artist": "AKB48"
+    },
+    {
+      "time": "14:05:05",
+      "title": "Sing It With Me",
+      "artist": "JP Cooper & Astrid S"
+    },
+    {
+      "time": "14:09:29",
+      "title": "Dying for You",
+      "artist": "Charli xcx"
+    },
+    {
+      "time": "14:12:28",
+      "title": "GOLDFINGER '99",
+      "artist": "郷ひろみ"
+    },
+    {
+      "time": "14:16:28",
+      "title": "You'll Be In My Heart",
+      "artist": "Phil Collins"
+    },
+    {
+      "time": "14:20:39",
+      "title": "夜鷹 - Yodaka",
+      "artist": "米津玄師"
+    },
+    {
+      "time": "14:23:54",
+      "title": "Fantasy",
+      "artist": "Earth, Wind & Fire"
+    },
+    {
+      "time": "14:29:21",
+      "title": "Letters",
+      "artist": "Furui Riho"
+    },
+    {
+      "time": "14:32:46",
+      "title": "Dancing On the Sun",
+      "artist": "Bahari"
+    },
+    {
+      "time": "14:35:50",
+      "title": "アジアの純真",
+      "artist": "PUFFY"
+    },
+    {
+      "time": "14:40:00",
+      "title": "So Easy (To Fall In Love)",
+      "artist": "Olivia Dean"
+    },
+    {
+      "time": "14:42:44",
+      "title": "恋のマイレージ",
+      "artist": "RAG FAIR"
+    },
+    {
+      "time": "14:46:08",
+      "title": "El Condor Pasa",
+      "artist": "Simon & Garfunkel"
+    },
+    {
+      "time": "14:49:24",
+      "title": "Live While We're Young",
+      "artist": "One Direction"
+    },
+    {
+      "time": "14:52:38",
+      "title": "紫の夜を越えて",
+      "artist": "スピッツ"
+    },
+    {
+      "time": "14:56:46",
+      "title": "Release Me",
+      "artist": "Wilson Phillips"
+    },
+    {
+      "time": "15:03:15",
+      "title": "ダンシング・ヒーロー (Eat You Up)",
+      "artist": "荻野目洋子"
+    },
+    {
+      "time": "15:06:56",
+      "title": "Anyone",
+      "artist": "Justin Bieber"
+    },
+    {
+      "time": "15:11:12",
+      "title": "GO GHOST",
+      "artist": "King Gnu"
+    },
+    {
+      "time": "15:13:56",
+      "title": "Look Away",
+      "artist": "Chicago"
+    },
+    {
+      "time": "15:17:49",
+      "title": "Close",
+      "artist": "CIRRA"
+    },
+    {
+      "time": "15:21:21",
+      "title": "笑ったり転んだり",
+      "artist": "ハンバート ハンバート"
+    },
+    {
+      "time": "15:24:31",
+      "title": "More Than Words",
+      "artist": "Extreme"
+    },
+    {
+      "time": "15:29:00",
+      "title": "ハッピーエンド",
+      "artist": "上白石萌音×内澤崇仁(androp)"
+    },
+    {
+      "time": "15:33:39",
+      "title": "Cut to the Feeling",
+      "artist": "Carly Rae Jepsen"
+    },
+    {
+      "time": "15:37:00",
+      "title": "気まぐれ",
+      "artist": "Vaundy"
+    },
+    {
+      "time": "15:40:26",
+      "title": "Saving Forever For You",
+      "artist": "Shanice"
+    },
+    {
+      "time": "15:44:06",
+      "title": "Hello, world!",
+      "artist": "BUMP OF CHICKEN"
+    },
+    {
+      "time": "15:49:05",
+      "title": "真夏の夜の夢",
+      "artist": "松任谷由実"
+    },
+    {
+      "time": "15:53:47",
+      "title": "Free to Love feat. Nile Rodgers",
+      "artist": "Duran Duran"
+    },
+    {
+      "time": "15:56:48",
+      "title": "us",
+      "artist": "milet"
+    },
+    {
+      "time": "16:00:55",
+      "title": "promise",
+      "artist": "広瀬香美"
+    },
+    {
+      "time": "16:05:23",
+      "title": "Don't Say You Love Me",
+      "artist": "JIN"
+    },
+    {
+      "time": "16:09:27",
+      "title": "the cure",
+      "artist": "Olivia Rodrigo"
+    },
+    {
+      "time": "16:14:18",
+      "title": "世界中の誰よりきっと",
+      "artist": "中山美穂 & WANDS"
+    },
+    {
+      "time": "16:18:15",
+      "title": "SOS",
+      "artist": "The Corrs"
+    },
+    {
+      "time": "16:21:36",
+      "title": "Missing",
+      "artist": "BE:FIRST"
+    },
+    {
+      "time": "16:24:21",
+      "title": "Another Sad Love Song",
+      "artist": "Toni Braxton"
+    },
+    {
+      "time": "16:29:15",
+      "title": "風と町",
+      "artist": "Mrs. GREEN APPLE"
+    },
+    {
+      "time": "16:32:48",
+      "title": "Listen",
+      "artist": "Beyonce"
+    },
+    {
+      "time": "16:36:22",
+      "title": "今すぐKiss Me",
+      "artist": "LINDBERG"
+    },
+    {
+      "time": "16:39:52",
+      "title": "Talking Body",
+      "artist": "Tove Lo"
+    },
+    {
+      "time": "16:43:44",
+      "title": "Squall",
+      "artist": "松本英子"
+    },
+    {
+      "time": "16:49:18",
+      "title": "Shout To The Top!",
+      "artist": "The Style Council"
+    },
+    {
+      "time": "16:52:29",
+      "title": "Gravity feat. 藤原聡 (Official髭男dism)",
+      "artist": "ONE OK ROCK"
+    },
+    {
+      "time": "16:55:31",
+      "title": "My Mind Is For Sale",
+      "artist": "Jack Johnson"
+    },
+    {
+      "time": "17:10:14",
+      "title": "世界でいちばん熱い夏",
+      "artist": "Princess Princess"
+    },
+    {
+      "time": "17:13:47",
+      "title": "The Wave",
+      "artist": "Jungle"
+    },
+    {
+      "time": "17:17:02",
+      "title": "二酸化炭素",
+      "artist": "SHISHAMO"
+    },
+    {
+      "time": "17:22:13",
+      "title": "The Riddle",
+      "artist": "Nik Kershaw"
+    },
+    {
+      "time": "17:25:54",
+      "title": "今日という日を",
+      "artist": "Uru"
+    },
+    {
+      "time": "17:30:25",
+      "title": "シングル・アゲイン",
+      "artist": "竹内まりや"
+    },
+    {
+      "time": "17:34:37",
+      "title": "The Cure",
+      "artist": "Lady Gaga"
+    },
+    {
+      "time": "17:37:59",
+      "title": "晴々",
+      "artist": "緑黄色社会"
+    },
+    {
+      "time": "17:42:43",
+      "title": "Don't Disturb This Groove",
+      "artist": "The System"
+    },
+    {
+      "time": "17:46:19",
+      "title": "Your Song",
+      "artist": "Mr.Children"
+    },
+    {
+      "time": "17:51:23",
+      "title": "Where The Sun Goes feat. Stevie Wonder",
+      "artist": "Redfoo"
+    },
+    {
+      "time": "17:55:14",
+      "title": "Take It On The Run",
+      "artist": "REO Speedwagon"
+    },
+    {
+      "time": "18:00:25",
+      "title": "OK! GO!",
+      "artist": "絢香"
+    },
+    {
+      "time": "18:03:56",
+      "title": "Slow Dancing With The Moon",
+      "artist": "Dolly Parton"
+    },
+    {
+      "time": "18:07:17",
+      "title": "Yes-No",
+      "artist": "オフコース"
+    },
+    {
+      "time": "18:11:39",
+      "title": "Who Says You Can't Go Home",
+      "artist": "Bon Jovi"
+    },
+    {
+      "time": "18:16:13",
+      "title": "Escapade",
+      "artist": "Janet Jackson"
+    },
+    {
+      "time": "18:20:54",
+      "title": "時間よ止まれ",
+      "artist": "矢沢永吉"
+    },
+    {
+      "time": "18:25:08",
+      "title": "Without You feat. Sandro Cavazza",
+      "artist": "Avicii"
+    },
+    {
+      "time": "18:28:04",
+      "title": "Sunshine Girl",
+      "artist": "moumoon"
+    },
+    {
+      "time": "18:31:48",
+      "title": "Love In Exile feat. Michael McDonald & Kenny Loggins",
+      "artist": "Charlie Puth"
+    },
+    {
+      "time": "18:35:01",
+      "title": "Candy Pop",
+      "artist": "TWICE"
+    },
+    {
+      "time": "18:38:16",
+      "title": "Kinetic feat. INCOGNITO",
+      "artist": "Kroi"
+    },
+    {
+      "time": "18:41:33",
+      "title": "オリオン",
+      "artist": "YOASOBI"
+    },
+    {
+      "time": "18:44:55",
+      "title": "WITH YOU",
+      "artist": "JUJU"
+    },
+    {
+      "time": "18:50:44",
+      "title": "Dance With Me",
+      "artist": "Tones and I"
+    },
+    {
+      "time": "18:54:25",
+      "title": "コールドスリープ",
+      "artist": "Perfume"
+    }
+  ]
+}

@@ -1,0 +1,501 @@
+{
+  "date": "2026-09-30",
+  "fetchedAt": "2026-10-10T11:38:16.363Z",
+  "plays": [
+    {
+      "time": "11:30:15",
+      "title": "OK! GO!",
+      "artist": "絢香"
+    },
+    {
+      "time": "11:33:46",
+      "title": "Celebration",
+      "artist": "Kool & The Gang"
+    },
+    {
+      "time": "11:38:28",
+      "title": "Just You and I",
+      "artist": "安室奈美恵"
+    },
+    {
+      "time": "11:41:59",
+      "title": "Choosin' Texas",
+      "artist": "Ella Langley"
+    },
+    {
+      "time": "11:45:44",
+      "title": "Light Switch",
+      "artist": "Charlie Puth"
+    },
+    {
+      "time": "11:48:47",
+      "title": "Diary",
+      "artist": "SEKAI NO OWARI"
+    },
+    {
+      "time": "11:52:42",
+      "title": "Can't Tame Her",
+      "artist": "Zara Larsson"
+    },
+    {
+      "time": "11:55:53",
+      "title": "EZ DO DANCE",
+      "artist": "trf"
+    },
+    {
+      "time": "12:00:14",
+      "title": "夜鷹 - Yodaka",
+      "artist": "米津玄師"
+    },
+    {
+      "time": "12:03:28",
+      "title": "Modern Love",
+      "artist": "David Bowie"
+    },
+    {
+      "time": "12:09:13",
+      "title": "Missing",
+      "artist": "久保田利伸"
+    },
+    {
+      "time": "12:13:54",
+      "title": "Take You Dancing ",
+      "artist": "Jason Derulo"
+    },
+    {
+      "time": "12:16:59",
+      "title": "バンザイ 〜好きでよかった〜",
+      "artist": "ウルフルズ"
+    },
+    {
+      "time": "12:21:22",
+      "title": "Doesn't Really Matter (Remix)",
+      "artist": "Janet Jackson & BE:FIRST"
+    },
+    {
+      "time": "12:24:14",
+      "title": "星街の駅で",
+      "artist": "tuki."
+    },
+    {
+      "time": "12:28:59",
+      "title": "タイムマシン",
+      "artist": "優里"
+    },
+    {
+      "time": "12:32:15",
+      "title": "Fastlove",
+      "artist": "George Michael"
+    },
+    {
+      "time": "12:37:33",
+      "title": "ESCAPE",
+      "artist": "MOON CHILD"
+    },
+    {
+      "time": "12:42:06",
+      "title": "I'll Be",
+      "artist": "Celine Dion"
+    },
+    {
+      "time": "12:45:03",
+      "title": "アイコトバ",
+      "artist": "DISH//"
+    },
+    {
+      "time": "12:49:04",
+      "title": "Play A Love Song",
+      "artist": "宇多田ヒカル"
+    },
+    {
+      "time": "12:53:09",
+      "title": "Two Hearts",
+      "artist": "Danny L Harle & Dua Lipa"
+    },
+    {
+      "time": "12:56:59",
+      "title": "アンリミテッド",
+      "artist": "Da-iCE"
+    },
+    {
+      "time": "13:00:26",
+      "title": "Runner",
+      "artist": "爆風スランプ"
+    },
+    {
+      "time": "13:05:00",
+      "title": "Toxic",
+      "artist": "Britney Spears"
+    },
+    {
+      "time": "13:09:26",
+      "title": "飛ぶ時",
+      "artist": "Vaundy"
+    },
+    {
+      "time": "13:13:33",
+      "title": "UMBRELLA feat. JAY-Z",
+      "artist": "Rihanna"
+    },
+    {
+      "time": "13:17:34",
+      "title": "Yeah! Yeah! Yeah!",
+      "artist": "androp"
+    },
+    {
+      "time": "13:21:30",
+      "title": "Dai Dai",
+      "artist": "Shakira & Burna Boy"
+    },
+    {
+      "time": "13:25:08",
+      "title": "メトロシティ",
+      "artist": "imase & なとり"
+    },
+    {
+      "time": "13:29:14",
+      "title": "遺書",
+      "artist": "キタニタツヤ"
+    },
+    {
+      "time": "13:32:15",
+      "title": "Alone Again (Naturally)",
+      "artist": "Gilbert O'Sullivan"
+    },
+    {
+      "time": "13:35:47",
+      "title": "キラキラの灰",
+      "artist": "リーガルリリー"
+    },
+    {
+      "time": "13:39:47",
+      "title": "Walk Like an Egyptian",
+      "artist": "The Bangles"
+    },
+    {
+      "time": "13:42:59",
+      "title": "Left And Right feat. Jung Kook",
+      "artist": "Charlie Puth"
+    },
+    {
+      "time": "13:45:30",
+      "title": "ジユーダム",
+      "artist": "椎名林檎"
+    },
+    {
+      "time": "13:49:18",
+      "title": "Someday, Somewhere",
+      "artist": "Jungle"
+    },
+    {
+      "time": "13:51:42",
+      "title": "青春病",
+      "artist": "藤井風"
+    },
+    {
+      "time": "13:56:54",
+      "title": "Stay With Me",
+      "artist": "Eighth Wonder"
+    },
+    {
+      "time": "14:00:08",
+      "title": "世界中のどんなラブソングよりも feat. Erica",
+      "artist": "ベリーグッドマン"
+    },
+    {
+      "time": "14:04:36",
+      "title": "Lay It All On Me",
+      "artist": "Ed Sheeran"
+    },
+    {
+      "time": "14:09:43",
+      "title": "Shape of a Woman",
+      "artist": "Lady Gaga"
+    },
+    {
+      "time": "14:13:06",
+      "title": "シンデレラ",
+      "artist": "斉藤和義"
+    },
+    {
+      "time": "14:17:57",
+      "title": "St. Elmo's Fire",
+      "artist": "John Parr"
+    },
+    {
+      "time": "14:20:33",
+      "title": "Umm",
+      "artist": "sumika"
+    },
+    {
+      "time": "14:24:20",
+      "title": "The Right Kind Of Love",
+      "artist": "Jeremy Jordan"
+    },
+    {
+      "time": "14:29:29",
+      "title": "GO GHOST",
+      "artist": "King Gnu"
+    },
+    {
+      "time": "14:32:14",
+      "title": "Wrapped Up feat. Travie McCoy",
+      "artist": "Olly Murs"
+    },
+    {
+      "time": "14:35:14",
+      "title": "EVERYDAY AT THE BUS STOP",
+      "artist": "Tommy february6"
+    },
+    {
+      "time": "14:38:49",
+      "title": "I knew it, I knew you",
+      "artist": "Taylor Swift"
+    },
+    {
+      "time": "14:41:41",
+      "title": "目抜き通り",
+      "artist": "椎名林檎とトータス松本"
+    },
+    {
+      "time": "14:44:50",
+      "title": "MUSIC WONDER",
+      "artist": "松下洸平"
+    },
+    {
+      "time": "14:49:33",
+      "title": "Ain't It Funny",
+      "artist": "Jennifer Lopez"
+    },
+    {
+      "time": "14:53:14",
+      "title": "恋のはじまりはいつも突然に…",
+      "artist": "chay"
+    },
+    {
+      "time": "14:56:34",
+      "title": "Thank U",
+      "artist": "Alanis Morissette"
+    },
+    {
+      "time": "15:03:15",
+      "title": "亜麻色の髪の乙女",
+      "artist": "島谷ひとみ"
+    },
+    {
+      "time": "15:07:09",
+      "title": "Sound Of An Orchestra",
+      "artist": "MIKA"
+    },
+    {
+      "time": "15:11:14",
+      "title": "気まぐれ",
+      "artist": "Vaundy"
+    },
+    {
+      "time": "15:14:39",
+      "title": "Guilty",
+      "artist": "Barbra Streisand and Barry Gibb"
+    },
+    {
+      "time": "15:18:49",
+      "title": "風になる",
+      "artist": "さらさ"
+    },
+    {
+      "time": "15:21:55",
+      "title": "四季",
+      "artist": "クリープハイプ"
+    },
+    {
+      "time": "15:25:13",
+      "title": "Basket Case",
+      "artist": "Green Day"
+    },
+    {
+      "time": "15:29:01",
+      "title": "周波数",
+      "artist": "SEKAI NO OWARI"
+    },
+    {
+      "time": "15:33:06",
+      "title": "It Ain't Me",
+      "artist": "Kygo & Selena Gomez"
+    },
+    {
+      "time": "15:36:39",
+      "title": "大空港",
+      "artist": "離婚伝説"
+    },
+    {
+      "time": "15:41:19",
+      "title": "Maneater",
+      "artist": "Daryl Hall & John Oates"
+    },
+    {
+      "time": "15:45:34",
+      "title": "夢の中へ",
+      "artist": "井上陽水"
+    },
+    {
+      "time": "15:48:59",
+      "title": "好き",
+      "artist": "西野カナ"
+    },
+    {
+      "time": "15:55:08",
+      "title": "Motivation",
+      "artist": "Carly Rae Jepsen"
+    },
+    {
+      "time": "15:58:56",
+      "title": "ダイナマイト",
+      "artist": "Superfly"
+    },
+    {
+      "time": "16:02:03",
+      "title": "Hello, my friend",
+      "artist": "松任谷由実"
+    },
+    {
+      "time": "16:06:07",
+      "title": "Made My Night",
+      "artist": "LE SSERAFIM"
+    },
+    {
+      "time": "16:09:20",
+      "title": "Talk To Us",
+      "artist": "MJ Cole & A. K. Paul"
+    },
+    {
+      "time": "16:12:33",
+      "title": "サンキュ.",
+      "artist": "DREAMS COME TRUE"
+    },
+    {
+      "time": "16:16:08",
+      "title": "Faded",
+      "artist": "Alan Walker"
+    },
+    {
+      "time": "16:19:31",
+      "title": "Missing",
+      "artist": "BE:FIRST"
+    },
+    {
+      "time": "16:22:16",
+      "title": "Open Arms",
+      "artist": "Journey"
+    },
+    {
+      "time": "16:25:27",
+      "title": "Woven City",
+      "artist": "ナオト・インティライミ"
+    },
+    {
+      "time": "16:29:09",
+      "title": "火種",
+      "artist": "キタニタツヤ"
+    },
+    {
+      "time": "16:32:27",
+      "title": "Beautiful Now feat. Jon Bellion",
+      "artist": "ZEDD"
+    },
+    {
+      "time": "16:36:00",
+      "title": "石コロDays",
+      "artist": "スキマスイッチ"
+    },
+    {
+      "time": "16:41:44",
+      "title": "Put Your Records On",
+      "artist": "Corinne Bailey Rae"
+    },
+    {
+      "time": "16:45:09",
+      "title": "PLAYING WITH FIRE",
+      "artist": "BLACKPINK"
+    },
+    {
+      "time": "16:49:14",
+      "title": "Carnival",
+      "artist": "The Cardigans"
+    },
+    {
+      "time": "16:52:29",
+      "title": "Tragicomedy",
+      "artist": "SHE'S"
+    },
+    {
+      "time": "16:56:08",
+      "title": "Bedroom feat. Anne-Marie",
+      "artist": "JJ Lin"
+    },
+    {
+      "time": "17:10:13",
+      "title": "TABOO",
+      "artist": "緑黄色社会"
+    },
+    {
+      "time": "17:13:41",
+      "title": "Nothing Compares 2 U",
+      "artist": "Sinead O'Connor"
+    },
+    {
+      "time": "17:18:20",
+      "title": "忘れてください",
+      "artist": "ヨルシカ"
+    },
+    {
+      "time": "17:21:54",
+      "title": "Love In Exile feat. Michael McDonald & Kenny Loggins",
+      "artist": "Charlie Puth"
+    },
+    {
+      "time": "17:25:07",
+      "title": "Cheers",
+      "artist": "Tani Yuuki"
+    },
+    {
+      "time": "17:29:05",
+      "title": "1461日",
+      "artist": "福山雅治"
+    },
+    {
+      "time": "17:33:14",
+      "title": "Legendary",
+      "artist": "Bon Jovi"
+    },
+    {
+      "time": "17:37:11",
+      "title": "愛くださいませ",
+      "artist": "≠ME"
+    },
+    {
+      "time": "17:41:14",
+      "title": "Don't Look Back In Anger",
+      "artist": "Oasis"
+    },
+    {
+      "time": "17:45:58",
+      "title": "ラブレター",
+      "artist": "YOASOBI"
+    },
+    {
+      "time": "17:49:22",
+      "title": "Tears For Fun",
+      "artist": "Griff"
+    },
+    {
+      "time": "17:52:32",
+      "title": "うるさ",
+      "artist": "Ayase"
+    },
+    {
+      "time": "17:55:41",
+      "title": "Rainy Days and Mondays",
+      "artist": "Carpenters"
+    }
+  ]
+}

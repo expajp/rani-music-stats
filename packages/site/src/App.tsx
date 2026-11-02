@@ -48,8 +48,14 @@ function Shell({ children, note }: { children: ReactNode; note?: string }) {
       </header>
       {children}
       <footer className="footer">
-        曲目は <a href="https://www.radionikkei.jp/ranimusic/onair/">楽曲 ON AIR リスト</a> をもとに記録しています。
-        発表年は iTunes Search API の検索結果で、実際と違う場合があります。
+        <p>
+          曲目は <a href="https://www.radionikkei.jp/ranimusic/onair/">楽曲 ON AIR リスト</a> をもとに記録しています。
+          発表年は iTunes Search API の検索結果で、実際と違う場合があります。
+        </p>
+        <p>
+          このサイトは <a href="https://x.com/expajp">@expajp</a> が独自にまとめたものです。番組および放送局とは一切関係ありません。
+          同時に、このサイトの情報が正確であることは保証しません。
+        </p>
       </footer>
     </div>
   );

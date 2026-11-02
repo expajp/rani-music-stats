@@ -354,3 +354,7 @@ tr.detail td {
   color: var(--text-muted);
   font-size: 0.8rem;
 }
+
+.footer p {
+  margin: 0 0 8px;
+}

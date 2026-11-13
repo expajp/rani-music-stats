@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "fetchedAt": "2026-11-12T18:39:36.071Z",
+  "fetchedAt": "2026-11-13T18:19:04.933Z",
   "plays": [
     {
       "time": "08:30:14",
@@ -256,6 +256,81 @@
       "time": "11:53:22",
       "title": "I Feel It Coming feat. Daft Punk",
       "artist": "The Weeknd"
+    },
+    {
+      "time": "12:00:45",
+      "title": "限界突破×サバイバー",
+      "artist": "氷川きよし"
+    },
+    {
+      "time": "12:04:29",
+      "title": "娑婆堕罵 -Shabadaba-",
+      "artist": "RADWIMPS"
+    },
+    {
+      "time": "12:09:47",
+      "title": "All I Wanna Do",
+      "artist": "Sheryl Crow"
+    },
+    {
+      "time": "12:14:12",
+      "title": "Golden Sun",
+      "artist": "ONE N' ONLY"
+    },
+    {
+      "time": "12:17:20",
+      "title": "群青",
+      "artist": "YOASOBI"
+    },
+    {
+      "time": "12:21:21",
+      "title": "winter fall",
+      "artist": "L'Arc〜en〜Ciel"
+    },
+    {
+      "time": "12:26:05",
+      "title": "Slidin",
+      "artist": "HANA"
+    },
+    {
+      "time": "12:29:51",
+      "title": "希望の唄",
+      "artist": "FUNKY MONKEY BABYS"
+    },
+    {
+      "time": "12:34:10",
+      "title": "難破船",
+      "artist": "中森明菜"
+    },
+    {
+      "time": "12:38:28",
+      "title": "Believe",
+      "artist": "Che'Nelle"
+    },
+    {
+      "time": "12:42:57",
+      "title": "瞳をとじて",
+      "artist": "平井堅"
+    },
+    {
+      "time": "12:49:26",
+      "title": "北風",
+      "artist": "槇原敬之"
+    },
+    {
+      "time": "12:54:21",
+      "title": "In My Room",
+      "artist": "宇多田ヒカル"
+    },
+    {
+      "time": "12:58:28",
+      "title": "ロングホープ・フィリア",
+      "artist": "菅田将暉"
+    },
+    {
+      "time": "13:03:12",
+      "title": "Progress",
+      "artist": "kokua"
     },
     {
       "time": "13:09:15",

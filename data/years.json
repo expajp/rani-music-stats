@@ -5089,6 +5089,11 @@
       "releaseDate": "2017-02-10"
     }
   },
+  "champagne\tremi wolf": {
+    "year": null,
+    "lookedUpAt": "2026-11-16T20:45:16.483Z",
+    "itunes": null
+  },
   "chance!\t白井貴子": {
     "year": 1984,
     "lookedUpAt": "2026-10-10T15:44:48.681Z",
@@ -16719,6 +16724,16 @@
       "releaseDate": "2005-02-07"
     }
   },
+  "no more regrets\talmost monday": {
+    "year": 2026,
+    "lookedUpAt": "2026-11-16T20:45:31.345Z",
+    "itunes": {
+      "trackId": 1893191803,
+      "trackName": "no more regrets",
+      "artistName": "オールモスト・マンデー",
+      "releaseDate": "2026-05-01"
+    }
+  },
   "no more regrets\tsingle by almost monday": {
     "year": 2026,
     "lookedUpAt": "2026-10-10T15:51:37.071Z",
@@ -17812,6 +17827,16 @@
       "trackName": "Payphone (feat. Wiz Khalifa)",
       "artistName": "マルーン5",
       "releaseDate": "2012-04-16"
+    }
+  },
+  "peace feat. wilywnka\tsirup": {
+    "year": 2026,
+    "lookedUpAt": "2026-11-16T20:45:20.259Z",
+    "itunes": {
+      "trackId": 6819573548,
+      "trackName": "PEACE feat. WILYWNKA",
+      "artistName": "SIRUP",
+      "releaseDate": "2026-10-28"
     }
   },
   "peaches\tyoung franco & charlotte plank": {
@@ -32029,6 +32054,16 @@
       "releaseDate": "2023-04-26"
     }
   },
+  "フラグメンツ\t秦基博": {
+    "year": 2026,
+    "lookedUpAt": "2026-11-16T20:45:27.660Z",
+    "itunes": {
+      "trackId": 6822169612,
+      "trackName": "フラグメンツ",
+      "artistName": "秦 基博",
+      "releaseDate": "2026-10-27"
+    }
+  },
   "プラスティック・ラブ\t竹内まりや": {
     "year": 1984,
     "lookedUpAt": "2026-10-10T14:40:50.811Z",
@@ -40232,6 +40267,16 @@
       "trackName": "烏 - Raven",
       "artistName": "米津玄師",
       "releaseDate": "2026-06-15"
+    }
+  },
+  "無礼な!\tポルカドットスティングレイ": {
+    "year": 2026,
+    "lookedUpAt": "2026-11-16T20:45:23.997Z",
+    "itunes": {
+      "trackId": 6825632009,
+      "trackName": "無礼な!",
+      "artistName": "ポルカドットスティングレイ",
+      "releaseDate": "2026-10-30"
     }
   },
   "無限未来\tperfume": {
